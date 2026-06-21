@@ -1,0 +1,48 @@
+# MAX VPS Backend - requirements.txt
+# Generated from pyproject.toml. Use pyproject.toml как source of truth.
+# pip install -r requirements.txt
+
+# === Web ===
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+pydantic-settings==2.6.0
+
+# === Database ===
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+aiosqlite==0.20.0
+
+# === Auth ===
+pyjwt==2.10.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.20
+
+# === HTTP ===
+httpx==0.28.0
+# aiohttp не нужен явно — aiogram подтянет свою версию
+# aiohttp>=3.11.0
+
+# === Cache ===
+redis==5.2.0
+slowapi==0.1.9
+
+# === Utils ===
+python-dotenv==1.0.1
+orjson==3.10.0
+structlog==24.4.0
+tenacity==9.0.0
+cryptography==43.0.0
+qrcode[pil]==8.0
+
+# === Telegram ===
+aiogram==3.15.0
+
+# === Monitoring ===
+prometheus-client==0.21.0
+sentry-sdk[fastapi]==2.18.0
+
+# === Date ===
+python-dateutil==2.9.0
+pytz==2024.2

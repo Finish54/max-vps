@@ -1,0 +1,63 @@
+# MAX VPS Backend - local dev docker-compose
+# Поднимает PostgreSQL + Redis + Backend для локальной разработки
+
+services:
+  postgres:
+    image: postgres:16.4-alpine
+    container_name: maxvps-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-maxvps}
+      POSTGRES_USER: ${POSTGRES_USER:-maxvps}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-maxvps_dev_password}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init_db.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-maxvps}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7.4-alpine
+    container_name: maxvps-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: maxvps-backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      POSTGRES_HOST: postgres
+      REDIS_HOST: redis
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app/app  # Hot reload в dev
+      - ./alembic:/app/alembic
+
+volumes:
+  postgres_data:
+  redis_data:
