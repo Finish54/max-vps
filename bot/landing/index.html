@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VPN DISCOUNTER - Твой выход из цифровой иллюзии. Анонимный, сверхскоростной и защищенный доступ в интернет без ограничений. Подключение через Telegram-бота.">
+    <meta name="keywords" content="VPN, VPN DISCOUNTER, VLESS, Reality, Outline, Shadowsocks, Telegram VPN, обход блокировок, быстрый впн">
+    <meta name="author" content="VPN DISCOUNTER Team">
+    <meta property="og:title" content="VPN DISCOUNTER | Освободи свой интернет из Матрицы">
+    <meta property="og:description" content="Безопасный, быстрый и анонимный доступ в сеть. Протоколы нового поколения VLESS Reality, Outline, WireGuard. Подключение в клик.">
+    <meta property="og:type" content="website">
+    
+    <title>VPN DISCOUNTER | Проснись в свободном интернете</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Matrix Rain Canvas Background -->
+    <canvas id="matrix-rain"></canvas>
+    
+    <!-- CRT Screen Overlay Effect -->
+    <div class="crt-overlay"></div>
+    <div class="scanlines"></div>
+
+    <!-- Main Container -->
+    <div class="app-container">
+        
+        <!-- Terminal Header -->
+        <header class="terminal-header">
+            <div class="header-logo">
+                <span class="glitch-text" data-text="VPN_DISCOUNTER">// VPN_DISCOUNTER</span>
+            </div>
+            <div class="system-status">
+                <span class="status-indicator online"></span>
+                <span class="status-text">SECURE UPLINK: ACTIVE</span>
+                <span class="header-clock" id="digital-clock">00:00:00 UTC</span>
+            </div>
+        </header>
+
+        <!-- Main Content Wrapper -->
+        <main>
+            
+            <!-- Terminal Welcome Console -->
+            <section class="console-section" id="welcome-console">
+                <div class="terminal-window">
+                    <div class="terminal-bar">
+                        <div class="bar-btn close"></div>
+                        <div class="bar-btn minimize"></div>
+                        <div class="bar-btn maximize"></div>
+                        <div class="terminal-title">system_bootstrap.log</div>
+                    </div>
+                    <div class="terminal-body" id="boot-log">
+                        <p class="log-line typing" data-delay="100">> INITIALIZING VPN DISCOUNTER PROTOCOL...</p>
+                        <p class="log-line hidden" data-delay="500">> ESTABLISHING SSH TUNNELS TO SECURE NODES...</p>
+                        <p class="log-line hidden" data-delay="900">> DECRYPTING CENSORSHIP FIREWALLS...</p>
+                        <p class="log-line hidden" data-delay="1300">> CHANNELS ESTABLISHED [VLESS + REALITY, OUTLINE, WIREGUARD]</p>
+                        <p class="log-line hidden success-text" data-delay="1700">> STATUS: SYSTEM READY. LIBERATION PROTOCOL IS ACTIVE.</p>
+                        <p class="log-line hidden question-text" data-delay="2100">> ВЫБЕРИТЕ СВОЮ РЕАЛЬНОСТЬ ДЛЯ ПРОДОЛЖЕНИЯ...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- The Hero Pill Chooser Section -->
+            <section class="pill-choice-section" id="pill-section">
+                <div class="pill-choice-container">
+                    <h1 class="main-title">ОСВОБОДИ СВОЙ РАЗУМ</h1>
+                    <p class="subtitle">Матрица контролирует твой трафик. Что выберешь ты?</p>
+                    
+                    <div class="pills-wrapper">
+                        <!-- Blue Pill (Illusion) -->
+                        <div class="pill-card blue" id="pill-blue-trigger">
+                            <div class="pill-graphic-box">
+                                <div class="pill-mesh blue-pill"></div>
+                            </div>
+                            <h3>Синяя таблетка</h3>
+                            <p class="pill-desc">
+                                Остаться в иллюзии. Заблокированные сайты, цензура, медленная скорость, слежка провайдера и реклама.
+                            </p>
+                            <button class="pill-btn btn-blue">Выбрать Неведение</button>
+                        </div>
+                        
+                        <!-- Red Pill (Truth) -->
+                        <div class="pill-card red" id="pill-red-trigger">
+                            <div class="pill-graphic-box">
+                                <div class="pill-mesh red-pill"></div>
+                            </div>
+                            <h3>Красная таблетка</h3>
+                            <p class="pill-desc">
+                                Увидеть реальность. Полная анонимность, сверхскоростные туннели, обход любых блокировок и свобода.
+                            </p>
+                            <button class="pill-btn btn-red">Выбрать Свободу</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blue Pill Overlay (Error screen) -->
+            <section class="illusion-overlay hidden" id="illusion-screen">
+                <div class="matrix-glitch-box">
+                    <div class="glitch-title">ВНИМАНИЕ: СИСТЕМНЫЙ СБОЙ</div>
+                    <div class="glitch-body">
+                        <p class="glitch-line">ВЫ ВЫБРАЛИ ИЛЛЮЗИЮ. ВАШ ТРАФИК ОСТАЕТСЯ ПОД КОНТРОЛЕМ.</p>
+                        <p class="glitch-line">Доступ к свободному интернету заблокирован...</p>
+                        <p class="glitch-line">IP адрес: <span class="user-ip">Определяется...</span></p>
+                        <p class="glitch-line warning-text">ОБНАРУЖЕНО СЛЕЖЕНИЕ ПРОВАЙДЕРА.</p>
+                        <div class="glitch-actions">
+                            <button class="action-btn-red" id="back-to-reality-btn">Принять красную таблетку</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- The Real World Section (Hidden initially, unlocked by Red Pill or shown naturally) -->
+            <div id="real-world-content" class="unlocked-content hidden">
+                
+                <!-- Main Cyber Dashboard (Features Grid) -->
+                <section class="dashboard-section" id="features">
+                    <h2 class="section-title"><span class="neon-text">// ХАРАКТЕРИСТИКИ_СИСТЕМЫ</span></h2>
+                    
+                    <div class="features-grid">
+                        
+                        <div class="dashboard-card">
+                            <div class="card-header">
+                                <span class="card-icon">🔐</span>
+                                <h4>ПРОТОКОЛЫ БУДУЩЕГО</h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Поддерживаем передовые анонимные протоколы:</p>
+                                <ul class="cyber-list">
+                                    <li><span class="green-glow">VLESS + Reality</span> — максимальная маскировка трафика под обычные сайты</li>
+                                    <li><span class="green-glow">ShadowSocks</span> — классический протокол для быстрого обхода блокировок</li>
+                                    <li><span class="green-glow">Outline API</span> — простота настройки в один клик</li>
+                                    <li><span class="green-glow">WireGuard & AmneziaWG</span> — для скоростного серфинга на любых устройствах</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-card">
+                            <div class="card-header">
+                                <span class="card-icon">⚡</span>
+                                <h4>СВЕРХСКОРОСТЬ И СТАБИЛЬНОСТЬ</h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Пропускная способность серверов до 1 Гбит/с. Оптимальная маршрутизация позволяет играть в игры с низким пингом, смотреть YouTube в 4K и скачивать торренты без ограничений провайдеров.</p>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-card">
+                            <div class="card-header">
+                                <span class="card-icon">🌍</span>
+                                <h4>МНОЖЕСТВО ЛОКАЦИЙ</h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Быстрое переключение локаций в Telegram-боте. Доступны серверы в стабильных юрисдикциях: Нидерланды, Финляндия, Германия, Турция и другие страны Европы.</p>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-card">
+                            <div class="card-header">
+                                <span class="card-icon">🤝</span>
+                                <h4>РЕФЕРАЛЬНЫЙ АПЛИНК</h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Приглашай друзей и получай бонусы! Мы начисляем <strong>бесплатные дни подписки</strong> за каждого приглашенного пользователя, а также **процент с каждого их платежа** реальными деньгами на твой баланс.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Pricing Terminal Console -->
+                <section class="pricing-section" id="pricing">
+                    <h2 class="section-title"><span class="neon-text">// СТОИМОСТЬ_ДОСТУПА</span></h2>
+                    
+                    <div class="terminal-pricing-wrapper">
+                        <div class="terminal-pricing-console">
+                            <div class="console-top">
+                                <span class="console-label">BILLING ENGINE v2.0.1</span>
+                                <span class="console-status">ONLINE</span>
+                            </div>
+                            
+                            <div class="pricing-selector">
+                                <div class="price-option active" data-months="1" data-price="100" data-total="100">
+                                    <div class="option-title">1 МЕСЯЦ ПОДПИСКИ</div>
+                                    <div class="option-price">100 ₽</div>
+                                    <div class="option-per-month">100 ₽ / мес</div>
+                                </div>
+                            </div>
+
+                            <div class="console-summary">
+                                <div class="summary-line">
+                                    <span>ВЫБРАННЫЙ ТАРИФ:</span>
+                                    <span id="summary-months-val" class="green-glow">1 МЕСЯЦ ПОДПИСКИ</span>
+                                </div>
+                                <div class="summary-line">
+                                    <span>ПРОБНЫЙ ПЕРИОД:</span>
+                                    <span class="green-glow">АКТИВЕН (3 ДНЯ ПОЛНОГО ДОСТУПА)</span>
+                                </div>
+                                <div class="summary-line total-line">
+                                    <span>ИТОГО К ОПЛАТЕ:</span>
+                                    <span id="summary-price-val" class="price-tag green-glow">100 ₽</span>
+                                </div>
+                                <div class="billing-desc">
+                                    * Оплата производится через удобные методы (ЮМани, СБП, Карты, Криптовалюта, Telegram Stars) прямо в интерфейсе Telegram бота.
+                                </div>
+                            </div>
+                            
+                            <!-- Master Call to Action -->
+                            <div class="pricing-cta-box">
+                                <a href="https://t.me/vpndiscounterbot" target="_blank" class="glow-cta-btn" id="master-cta-btn">
+                                    <span class="btn-terminal-arrow">></span> ПОДКЛЮЧИТЬ БЕСПЛАТНО В TELEGRAM
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- FAQ Terminal Section -->
+                <section class="faq-section" id="faq">
+                    <h2 class="section-title"><span class="neon-text">// ЧАСТО_ЗАДАВАЕМЫЕ_ВОПРОСЫ</span></h2>
+                    
+                    <div class="faq-accordion-container">
+                        
+                        <div class="faq-item">
+                            <button class="faq-trigger">
+                                <span class="faq-status">[+]</span> Как начать пользоваться?
+                            </button>
+                            <div class="faq-content">
+                                <p>Перейдите в нашего Telegram-бота по кнопке на сайте. Нажмите команду <strong>/start</strong>. Бот выдаст вам бесплатный пробный период на 3 дня с полным доступом для проверки качества. После этого выберите локацию, протокол и скачайте приложение-клиент (мы предоставим подробнейшие пошаговые инструкции прямо в боте).</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-trigger">
+                                <span class="faq-status">[+]</span> Какие приложения нужны для подключения?
+                            </button>
+                            <div class="faq-content">
+                                <p>В зависимости от выбранного протокола:</p>
+                                <ul>
+                                    <li>Для <strong>VLESS Reality / Shadowsocks</strong>: v2rayNG (Android), Streisand / FoXray / Shadowrocket (iOS), Nekoray (Windows/macOS).</li>
+                                    <li>Для <strong>Outline</strong>: официальное приложение Outline Client (доступно на всех ОС).</li>
+                                    <li>Для <strong>AmneziaWG</strong> / <strong>WireGuard</strong>: официальные приложения AmneziaWG или WireGuard.</li>
+                                </ul>
+                                <p>Ссылки на скачивание и QR-коды для импорта бот выдает автоматически.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-trigger">
+                                <span class="faq-status">[+]</span> Можно ли подключить несколько устройств?
+                            </button>
+                            <div class="faq-content">
+                                <p>Да, вы можете использовать ваш ключ на нескольких устройствах (смартфон, ноутбук, планшет). Лимит одновременных подключений на один ключ настраивается администратором, но обычно вы можете легко настроить всю свою домашнюю технику.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-trigger">
+                                <span class="faq-status">[+]</span> Могу ли я вернуть деньги, если мне не понравится?
+                            </button>
+                            <div class="faq-content">
+                                <p>Мы предлагаем полноценный бесплатный тестовый период перед покупкой, чтобы вы могли полностью убедиться в скорости и стабильности серверов. По любым вопросам техподдержки вы можете написать администратору прямо из меню бота.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                
+            </div>
+            
+        </main>
+
+        <!-- Cyber Footer -->
+        <footer class="terminal-footer">
+            <div class="footer-left">
+                <p>&copy; 2026 VPN DISCOUNTER. All realities reserved.</p>
+            </div>
+            <div class="footer-center">
+                <a href="#welcome-console" class="terminal-link">Наверх</a>
+            </div>
+            <div class="footer-right">
+                <p>STATUS: <span class="green-glow">DECRYPTED</span> // SECURITY LEVEL: <a href="https://t.me/vpndiscounterbot" class="terminal-link" target="_blank">MAX</a></p>
+            </div>
+        </footer>
+        
+    </div>
+
+    <!-- Script File -->
+    <script src="script.js"></script>
+</body>
+</html>

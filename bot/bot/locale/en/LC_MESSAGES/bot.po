@@ -1,0 +1,1660 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-10 16:40+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "error_check_follow"
+msgstr "The bot cannot check the subscription to the selected channel!\add the bot to the channel admins"
+
+msgid "no_follow"
+msgstr "🌐 To access the materials, please subscribe to our information channel\nIt is important to get complete information!"
+
+msgid "no_follow_button"
+msgstr "🔍 Check your subscription ✅"
+
+msgid "no_follow_bad_check"
+msgstr "❌ You are not subscribed to the channel. Please check your subscription and try again."
+
+msgid "hello_message"
+msgstr "<b>🛡️ Thank you for choosing! We guarantee your safety! 🛡️</b>\n\n✦ <b>Support for all platforms:</b> Android, Windows, macOS, Linux, iOS\n\n✦ <b>🔥 Join us</b> and enjoy <b>anonymity</b> and security without losing speed!\n\n✦ <b>Instant access to any sites and services —</b> no restrictions and locks, no matter where you are!\n\n✦ <b>🔒 Your activity is under reliable protection —</b> no one but you will know what you are doing online!\n\n✦ <b>🛡️ Your data is protected at the highest level — only you have access to it, unlike free VPN services.\n\n✦ <b>∞ No limits on the use of traffic — </b> complete freedom on the Internet!\n\n✦ <b>Easy setup and connection —</b> Our service is intuitive and ready to use immediately after installation."
+
+msgid "trial_message"
+msgstr "🚀 Get to know our VPN for free!\n🎉 We provide you with a 1 day subscription so that you can appreciate all its benefits. 🌐🔑"
+
+msgid "not_trial_message"
+msgstr "🌚 You have already used the trial period"
+
+msgid "about_message"
+msgstr "<b>{name_bot} - an innovative VPN service providing a modern solution for secure and anonymous internet access.</b>\n\nKey advantages of our service:\n\n🌐 <b>High speed</b>: Thanks to advanced technologies and stable protocols, you can enjoy the internet without any speed loss.\n\n🔒 <b>Complete security</b>: We do not collect logs or confidential data, ensuring your full anonymity and privacy online.\n\n📱 <b>Cross-platform support</b>: Support for all popular platforms allows you to use our service on any device.\n\n📈 <b>No limitations</b>: Enjoy the internet without traffic and speed restrictions.\n\nBy choosing {name_bot}, you get reliable protection and high performance, ensuring your freedom and security on the internet."
+
+msgid "choosing_connect_type"
+msgstr "Select VPN protocol 🔌"
+
+msgid "choosing_connect_location"
+msgstr "🌐 Select a location to connect to 👇"
+
+msgid "how_to_connect"
+msgstr "⇩ Your connection key 🔑 {name_vpn}\n```\n{config}\n```"
+
+msgid "how_to_connect_wg"
+msgstr "⬆️ Your connection key 🔑 {name_vpn}"
+
+msgid "success_pay_message"
+msgstr "<b>✅ The payment has been completed successfully!</b>\n🎉 Your subscription has been renewed, thank you for staying with us! 😊"
+
+msgid "ended_sub_message"
+msgstr "🚨 Your subscription to one of the keys has ended!If you want to continue using our services, please renew your subscription. 😊"
+
+msgid "alert_to_renew_sub"
+msgstr "🔔 Attention!\none of your keys expires within 24 hours. To renew your subscription, click on the button below and select the desired key. ⏳👇"
+
+msgid "donated_days"
+msgstr "🎉Congratulations\nThe administrator has added free subscription days for you 😁😁"
+
+msgid "instruction_iphone_vless"
+msgstr "https://telegra.ph/Instrukciya-po-podklyucheniyu-VPN-Vless-i-ShadowSocks-dlya-IPhone-08-25"
+
+msgid "instruction_android_vless"
+msgstr "https://telegra.ph/Instrukciya-po-podklyucheniyu-VPN-Vless-dlya-Android-05-01"
+
+msgid "instruction_windows_vless"
+msgstr "https://telegra.ph/Instrukciya-po-podklyucheniyu-VPN-Vless-i-ShadowSocks-dlya-PK-08-25"
+
+msgid "instruction_iphone_outline"
+msgstr "https://telegra.ph/Instrukciya-po-ustanovke-Outline-na-IPhone-08-25"
+
+msgid "instruction_android_outline"
+msgstr "https://telegra.ph/Instrukciya-po-ustanovke-Outline-na-Android-08-25"
+
+msgid "instruction_windows_outline"
+msgstr "https://telegra.ph/Instrukciya-na-ustanovku-Outline-Windows-08-25"
+
+msgid "instruction_iphone_wg"
+msgstr "https://telegra.ph/Nastrojka-podklyucheniya-Wireguard-dlya-iPhone-05-04"
+
+msgid "instruction_android_wg"
+msgstr "https://telegra.ph/Nastrojka-podklyucheniya-Wireguard-dlya-Android-05-04"
+
+msgid "instruction_windows_wg"
+msgstr "https://telegra.ph/Kak-ustanovit-WireGuard-05-04"
+
+msgid "instruction_iphone_amnezia_wg"
+msgstr "https://telegra.ph/Kak-ustanovit-AmneziaWG-na-IPhone-05-04"
+
+msgid "instruction_android_amnezia_wg"
+msgstr "https://telegra.ph/Kak-ustanovit-AmneziaWG-na-Android-05-04"
+
+msgid "instruction_windows_amnezia_wg"
+msgstr "https://telegra.ph/Kak-ustanovit-AmneziaWG-na-Windows-05-04"
+
+msgid "referral_error"
+msgstr "You cannot invite yourself ❌"
+
+msgid "referral_new_user"
+msgstr "Thank you for inviting a friend 😊😘\nAs a token of our appreciation, we give you {day} days of free VPN access 🫡\nChoose which key you want to add the time to"
+
+msgid "referral_new_user_zero"
+msgstr "Thank you for inviting a friend, he becomes your referral 😊😘"
+
+msgid "referral_new_user_success"
+msgstr "Time added ✅"
+
+msgid "referral_promo_code"
+msgstr "🎁 Enter a special promo code to get a discount!"
+
+msgid "referral_promo_code_none"
+msgstr "Promo code not found 😥"
+
+msgid "referral_system_message"
+msgstr "When clicking on your referral link, the client becomes your referral"
+
+msgid "referral_system_success"
+msgstr "Withdrawal request created, expect funds to be credited 👍"
+
+msgid "main_message"
+msgstr "🚀 Bot update!"
+
+msgid "not_server"
+msgstr "There are currently no available servers 😞\nPlease try again later"
+
+msgid "server_not_connected"
+msgstr "The server is not responding 😞 please try again later"
+
+msgid "error_send_admin"
+msgstr "An error occurred, please contact the administrator"
+
+msgid "error_add_server_client"
+msgstr "Failed to add server to client"
+
+msgid "config_user"
+msgstr "⇧ Get the key for connection 🔑 {name_vpn}"
+
+msgid "inform_subscription"
+msgstr "🗓 Subscription Information 🗓"
+
+msgid "balance_message"
+msgstr "Balance 🤑"
+
+msgid "method_replenishment"
+msgstr "👇 Replenishment method:"
+
+msgid "method_replenishment_promo"
+msgstr "You have added a discount code {percent}%\n👇 Replenishment method:"
+
+msgid "choosing_month_sub"
+msgstr "⇩ Choose a plan ⇩"
+
+msgid "success_payment_exist_admin"
+msgstr "🎉 The user {full_name}({user_id}) has purchased a subscription for {count_m} months 📆"
+
+msgid "success_payment_exist"
+msgstr "🎉 You have <b>successfully</b> paid for {month_count} months."
+
+msgid "choosing_amount_menu"
+msgstr "Choose the replenishment amount"
+
+msgid "input_email_check"
+msgstr "Enter your Email✉️ so we can send you a receipt"
+
+msgid "think_email_check"
+msgstr "Thank you! We will send you a receipt to the provided email"
+
+msgid "error_email_input"
+msgstr "Email entered incorrectly, please try again"
+
+msgid "your_referral_link"
+msgstr "Your referral link: \n {link_ref}\n "
+
+msgid "affiliate_reff_text"
+msgstr "For each referral you get <b>{referral_percent}% of the replenishment amount</b>\nThe minimum withdrawal amount is: <b>{minimum_amount}</b> ₽\n\n---- 🫂 Your referrals → <i>{count_referral_user}</i>\n\n---- 💰 Available for withdrawal [<b> {balance}₽</b> ]"
+
+msgid "affiliate_reff_text_new"
+msgstr "If you have the opportunity to attract clients, we offer you a great chance to <b>earn money</b>:\n\n➤ When a user clicks on your referral link, they become your <b>referral</b>. 👥\n\n➤ For each referral, you receive {percent}% of the purchase amount. 💰\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\nYour referral link:\n<b>{ref_link}</b>\n\n👥 Number of your referrals: {count_referral_user} people\n\n💸 Available for withdrawal: {balance} RUB"
+
+msgid "input_promo_user"
+msgstr "Enter promo code 👇👇👇"
+
+msgid "input_amount_withdrawal_min"
+msgstr "Enter the withdrawal amount, minimum {minimum_amount}"
+
+msgid "error_incorrect"
+msgstr "Incorrect input, please try again"
+
+msgid "where_transfer_funds"
+msgstr "Enter where you want to transfer the funds\nFor example: Sberbank 89777777777"
+
+msgid "how_i_contact_you"
+msgstr "How can we contact you?\nEmail ✉️, Phone number 📱, Link to social network 🖥"
+
+msgid "withdrawal_funds_has_been"
+msgstr "Funds withdrawal requested for {amount} ₽"
+
+msgid "error_withdrawal_funds_not_balance"
+msgstr "You do not have enough funds to withdraw the specified amount"
+
+msgid "promo_success_user"
+msgstr "Congratulations! 😄 you have received a promo code that gives you a discount of <b>{percent}%</b>"
+
+msgid "uses_promo_user"
+msgstr "You have already used this promo code 😉"
+
+msgid "input_message_user_admin"
+msgstr "📥 Leave a message, and we will gladly reply to you!"
+
+msgid "message_user_admin"
+msgstr "User {fullname} ( {username} | {telegram_id} ) has sent you a message \n "
+
+msgid "message_user_admin_success"
+msgstr "The administrator has received your message 👌"
+
+msgid "error_message_user_admin_success"
+msgstr "The administrator couldn't receive your message 😿"
+
+msgid "type_vpn_outline"
+msgstr "Outline 🪐"
+
+msgid "type_vpn_vless"
+msgstr "Vless 🐊"
+
+msgid "type_vpn_shadowsocks"
+msgstr "ShadowSocks 🦈"
+
+msgid "type_vpn_none"
+msgstr "There are no servers in the bot, try to log in later"
+
+msgid "error_month_count"
+msgstr "The payment message is outdated, please start over"
+
+msgid "no_connect_key_message"
+msgstr "not connected ⚠️"
+
+#Admin Handlers
+
+msgid "message_mailing_status"
+msgstr "Mailing status {percentage}%"
+
+msgid "space_message"
+msgstr ""
+"On the {vds_ip} server of the location {locale_name}\n"
+"Occupied {actual_space} of {max_spase}"
+
+msgid "dump_message"
+msgstr "Daily saving of your database"
+
+msgid "message_text_user"
+msgstr "User"
+
+msgid "message_text_user_input_promo"
+msgstr "entered a promo code"
+
+msgid "groups_counts_zero"
+msgstr "🔸 You have no groups 🔸"
+
+msgid "group_input_name"
+msgstr "Enter the group name 🖊"
+
+msgid "group_name_not_found"
+msgstr "Group with name {name} not found\nPlease enter again"
+
+msgid "groups_max_count"
+msgstr "Maximum number of groups {count}"
+
+msgid "input_number_group_s"
+msgstr "Enter the number of the group to which you want to add the server\nif you want to leave the server without a group, then enter 0\n\n Your groups:\n "
+
+msgid "error_input_number_group_s"
+msgstr "The group with the number {group_id} was not found, enter it again"
+
+msgid "error_name_static_space"
+msgstr "Name cannot contain spaces"
+
+msgid "error_name_static_lower"
+msgstr "The name contains uppercase letters, please convert them to lowercase"
+
+msgid "error_name_static_len"
+msgstr "The name cannot be longer than 30 characters"
+
+msgid "error_name_static_email"
+msgstr "The name contains invalid characters, please use only lowercase English letters, numbers and @._-"
+
+msgid "admin_user_manager_m"
+msgstr "User Management 📝"
+
+msgid "list_of_all_users_file"
+msgstr "List of all users"
+
+msgid "user_fullname"
+msgstr "Name"
+
+msgid "user_username"
+msgstr "Nickname"
+
+msgid "user_tgid"
+msgstr "ID"
+
+msgid "user_lang_tg"
+msgstr "Language in TG"
+
+msgid "user_balance"
+msgstr "Balance"
+
+msgid "user_referral_balance"
+msgstr "Referral balance"
+
+msgid "user_group"
+msgstr "Group"
+
+msgid "user_key"
+msgstr "Key"
+
+msgid "user_server"
+msgstr "Server"
+
+msgid "payment_system"
+msgstr "Payment system"
+
+msgid "payment_amount"
+msgstr "Amount"
+
+msgid "payment_date"
+msgstr "Date"
+
+msgid "metric_name"
+msgstr "Name"
+
+msgid "metric_link"
+msgstr "Link"
+
+msgid "statistic_locations"
+msgstr "📊 Location statistics"
+
+msgid "locations_statistic_name_location"
+msgstr "Location"
+
+msgid "locations_statistic_name_server"
+msgstr "Server"
+
+msgid "locations_statistic_ip"
+msgstr "IP"
+
+msgid "locations_statistic_password"
+msgstr "Password"
+
+msgid "locations_statistic_protocol"
+msgstr "Protocol"
+
+msgid "locations_statistic_actual_space"
+msgstr "Used slots"
+
+msgid "locations_statistic_free_space"
+msgstr "Available slots"
+
+msgid "locations_statistic_max_space"
+msgstr "Max slots"
+
+msgid "locations_statistic_result_server"
+msgstr "🕋 Server totals"
+
+msgid "locations_statistic_result_locations"
+msgstr "🌍 Location totals"
+
+msgid "locations_statistic_result_bot"
+msgstr "🤖 Bot totals"
+
+msgid "list_of_locations_file"
+msgstr "Location occupancy statistics"
+
+msgid "none_list_of_locations_file"
+msgstr "No active server locations found 😥"
+
+msgid "metric_count_user"
+msgstr "Number of users"
+
+msgid "metric_count_trial_user"
+msgstr "The probe was taken"
+
+msgid "metric_count_end_trial_user"
+msgstr "Probe ended"
+
+msgid "metric_count_user_payment"
+msgstr "Subscription purchased"
+
+msgid "metric_count_user_payment_not_sub"
+msgstr "Subscription ended"
+
+msgid "error_list_of_all_users_file"
+msgstr "Error while listing all users"
+
+msgid "none_list_of_sub_users_file"
+msgstr "You have no users with subscriptions 😥"
+
+msgid "list_of_sub_users_file"
+msgstr "List of users with active subscriptions"
+
+msgid "error_list_of_sub_users_file"
+msgstr "Error listing users with subscriptions"
+
+msgid "list_of_payments_file"
+msgstr "List of payments"
+
+msgid "none_list_of_payments_file"
+msgstr "There are no payments in your wallets 😥"
+
+msgid "error_list_of_payments_file"
+msgstr "Error listing users with subscriptions"
+
+msgid "list_of_metric_file"
+msgstr "Metric statistics"
+
+msgid "error_list_of_metric_file"
+msgstr "Error in file output"
+
+msgid "write_payments_file_str"
+msgstr "{count}) User: {user}({user_id}) - Payment system: {payment_system} - Amount: ({amount} rub.) | Date: {date}\n "
+
+msgid "input_telegram_id_user_m"
+msgstr "Enter the Telegram ID of the user:"
+
+msgid "input_user_chat_btn"
+msgstr "Select user from contacts"
+
+msgid "card_client_admin_m"
+msgstr ""
+"👤 Client: {fullname}\n"
+"🔗 Link: {username}\n"
+"🆔: {telegram_id} \n"
+"🏳️ TG language: {lang_code} \n"
+"Status: {status} \n"
+"Ref. percentage: {ref_percent}% \n"
+"💎 Ref. balance: {referral_balance} ₽\n"
+"🔑 Keys: {keys} pcs.\n"
+"Group: {group}\n "
+
+msgid "card_client_admin_status_partner"
+msgstr "Partner"
+
+msgid "card_client_admin_status_default"
+msgstr "Regular client"
+
+msgid "edit_client_input_percent_message"
+msgstr "Enter the ref. percentage the user will receive\nFrom 1 to 100%"
+
+msgid "edit_client_status_partner_message"
+msgstr "The user is now a partner"
+
+msgid "edit_client_status_default_message"
+msgstr "The user became a regular client"
+
+msgid "edit_client_partner"
+msgstr "Make a partner"
+
+msgid "edit_client_default"
+msgstr "Make a regular user"
+
+msgid "card_client_admin_m_sub"
+msgstr "📆 Subscription{subscription}"
+
+msgid "card_client_admin_m_none_sub"
+msgstr "📆 No subscription ❌"
+
+msgid "card_client_admin_m_client_none"
+msgstr "User not found 😥"
+
+msgid "input_count_day_add_time_m"
+msgstr "Enter the number of days you want to add to the user"
+
+msgid "keys_users_edit_admin"
+msgstr "Keys user 🙎🏼 {full_name}-{telegram_id}"
+
+msgid "input_balance_add_user_m"
+msgstr "Enter the new balance for the user 🖋"
+
+msgid "input_balance_limit_m"
+msgstr "Minimum is 0, maximum is 1000000, please enter again"
+
+msgid "incorrect_input_edit_balance"
+msgstr "Incorrect input, please try again"
+
+msgid "input_balance_success_m"
+msgstr "User balance updated ✅"
+
+msgid "user_message_input_balance_admin_m"
+msgstr "👋 The administrator has updated your balance 💵,\n it is now <b>{balance}</b> ₽\n you can write ✉️ to find out the details 😁"
+
+msgid "message_user_block_bot"
+msgstr "❌ Sending error, the user probably blocked the bot 🤖"
+
+msgid "error_write_bd_new_balance"
+msgstr "Failed to write the new balance to the database"
+
+msgid "back_you_back"
+msgstr "You are back"
+
+msgid "limit_count_day_sub_m"
+msgstr "Maximum of 2000 days 😉"
+
+msgid "incorrect_input_count_day_sub"
+msgstr "Incorrect input, expected an integer, please try again"
+
+msgid "input_count_day_sub_success"
+msgstr "User {username} has been given the specified number of days"
+
+msgid "error_not_found"
+msgstr "‼️ Error! Something went wrong ‼️"
+
+msgid "error_input_count_day_sub_success"
+msgstr "The user did not receive notification of the added days, they likely blocked the bot"
+
+msgid "user_delete_time_m"
+msgstr "Time reset for user {username}"
+
+msgid "error_user_delete_time_m"
+msgstr "The user did not receive notification of the end of their subscription, they likely blocked the bot"
+
+msgid "select_menu_item"
+msgstr "Select menu item:"
+
+msgid "choose_location"
+msgstr "Choose which location you want to create a user in"
+
+msgid "choose_vds"
+msgstr "Select server"
+
+msgid "choose_protocol"
+msgstr "Select protocol"
+
+msgid "static_input_name_user"
+msgstr "Enter the username, you don't have to take it from Telegram, you can write any"
+
+msgid "server_not_found"
+msgstr "Server not found, please try again"
+
+msgid "server_input_number_group_error"
+msgstr "You did not enter the number ❗️\nEnter it again"
+
+msgid "incorrect_name_user"
+msgstr "Name is too long!\nDo not use emojis"
+
+msgid "error_connect_serer"
+msgstr "An error occurred while connecting to the server"
+
+msgid "error_write_bd_key_create"
+msgstr "Error when writing to the database, user names must be unique"
+
+msgid "static_user_create_success"
+msgstr "User <b>{name}</b> created on server ✅"
+
+msgid "none_list_static_user"
+msgstr "You have no static users"
+
+msgid "error_get_static_user"
+msgstr "Error querying the database"
+
+msgid "list_static_user"
+msgstr "List of static users:"
+
+msgid "list_static_user_none_server_delete"
+msgstr "User without a server has been deleted"
+
+msgid "show_user"
+msgstr "User: "
+
+msgid "show_user_2"
+msgstr "User: <b>{user_name}</b>"
+
+msgid "show_key"
+msgstr "Key: "
+
+msgid "error_connect_server"
+msgstr "Error querying server {name_server}"
+
+msgid "error_delete_static_user_in_server"
+msgstr "Failed to delete user {name} from server"
+
+msgid "error_delete_bd_static_user"
+msgstr "Failed to delete user from the database"
+
+msgid "delete_static_user_success"
+msgstr "User {name} has been deleted! 😁"
+
+msgid "input_message_admin_user"
+msgstr "Enter message 🖊"
+
+msgid "message_from_the_admin"
+msgstr "Message from the administrator:"
+
+msgid "message_from_success"
+msgstr "Message sent 👍"
+
+msgid "bot_control"
+msgstr "🃏 Bot Control 🦾"
+
+msgid "servers_control"
+msgstr "Server Management 🖥️"
+
+msgid "servers_none"
+msgstr "No servers found 🉐"
+
+msgid "list_all_servers"
+msgstr "List of all servers:"
+
+msgid "server_not_connect_admin"
+msgstr "Server not responding ‼️"
+
+msgid "space_server_text"
+msgstr "👥 Occupied: {space}/{max_space}"
+
+msgid "protocol_server_text"
+msgstr "👥 Occupied: {space}"
+
+msgid "server_name_s"
+msgstr "🕋 Name:"
+
+msgid "server_adress_s"
+msgstr "🌐 Address:"
+
+msgid "server_password_vds_s"
+msgstr "📝 VDS Password:"
+
+msgid "server_type_free_vds_s"
+msgstr "🖱Server Type: "
+
+msgid "server_type_free"
+msgstr "Free ✳️"
+
+msgid "server_type_not_free"
+msgstr "Paid 💰"
+
+msgid "server_group_s"
+msgstr "👨‍👩‍👦‍👦Group: "
+
+msgid "server_type_vpn_s"
+msgstr "🎭 VPN Type:"
+
+msgid "server_outline_connect_s"
+msgstr "🗄️ URL and CertSHA256:"
+
+msgid "server_use_s"
+msgstr "In use ✅"
+
+msgid "server_not_use_s"
+msgstr "Not in use ⚠️"
+
+msgid "server_hidden_s"
+msgstr "Hidden from users 🙅‍♂️"
+
+msgid "server_show_s"
+msgstr "Visible to users 💁‍♂️"
+
+msgid "server_type_connect_s"
+msgstr "Connection Method:"
+
+msgid "server_panel_control_s"
+msgstr "Control Panel:"
+
+msgid "server_id_connect_s"
+msgstr "🆔 Connection:"
+
+msgid "server_login_s"
+msgstr "👤 Login:"
+
+msgid "server_password_s"
+msgstr "🔐 Password:"
+
+msgid "server_use_active"
+msgstr "Server {name_server} is now in use ✅"
+
+msgid "server_not_use_active"
+msgstr "Server {name_server} is no longer in use ❗️"
+
+msgid "server_show_active"
+msgstr "{type_protocol} protocol is now visible ✅"
+
+msgid "server_hidden_active"
+msgstr "{type_protocol} protocol is hidden ❗️"
+
+msgid "not_found_key"
+msgstr "Unknown key: {unknown_client}\n "
+
+msgid "key_delete_server"
+msgstr "User keys in the {name} protocol have been deleted"
+
+msgid "error_get_users_bd_text"
+msgstr "Error retrieving users from the database ⛔️"
+
+msgid "file_list_users_server"
+msgstr "File with users of protocol {name}"
+
+msgid "error_file_list_users_server"
+msgstr "Error listing protocol users"
+
+msgid "error_delete_all_users_server"
+msgstr "Failed to delete all clients from the protocol"
+
+msgid "input_name_server_admin"
+msgstr "Enter the server name:"
+
+msgid "who_should_i_send"
+msgstr "Who should I send the message to?"
+
+msgid "error_update"
+msgstr "Failed to update the client interface ‼️"
+
+msgid "input_message_or_image"
+msgstr "Write a message or attach an image for users to see"
+
+msgid "result_mailing_text"
+msgstr "Message sent 💌\nTotal sent: {all_count}\nReceived: {suc_count}\nNot Delivered: {count_not_suc}"
+
+msgid "error_mailing_text"
+msgstr "Error occurred while sending, please try again"
+
+msgid "bot_update_success"
+msgstr "Interface updated for all users ✅"
+
+msgid "control_promo_text"
+msgstr "Promo Code Management 💻"
+
+msgid "who_width_text"
+msgstr "Which withdrawal requests do you need?"
+
+msgid "not_withdrawal"
+msgstr "No withdrawal requests"
+
+msgid "withdrawal_number_s"
+msgstr "📎 Request N"
+
+msgid "withdrawal_amount_s"
+msgstr "💴 Amount:"
+
+msgid "withdrawal_info_s"
+msgstr "💾 Payment Info:"
+
+msgid "withdrawal_user_connect_s"
+msgstr "📞 Contact Method:"
+
+msgid "withdrawal_telegram_id_s"
+msgstr "🆔 User ID:"
+
+msgid "withdrawal_condition_s"
+msgstr "🌓 Status:"
+
+msgid "withdrawal_success"
+msgstr "Paid ✅"
+
+msgid "withdrawal_payment_expected"
+msgstr "Payment Expected ♻️"
+
+msgid "file_server_user_none"
+msgstr "There are no users in this protocol"
+
+msgid "create_new_promo_text"
+msgstr "Create New Promo Code:"
+
+msgid "input_text_promo_message"
+msgstr "Enter the text of the new promo code, using only letters and numbers"
+
+msgid "input_percent_message"
+msgstr "Enter the promo code discount percentage"
+
+msgid "input_count_use_message"
+msgstr "Enter the total number of uses of the promo code"
+
+msgid "error_input_amount_add_balance"
+msgstr "Only integers can be entered"
+
+msgid "error_input_percent"
+msgstr "The percentage should be from 1 to 100 inclusive"
+
+msgid "new_promo_success"
+msgstr "Promo code saved successfully"
+
+msgid "error_new_promo_text"
+msgstr "An error occurred while saving the promo code‼️\nPromo codes must be <b>Unique</b>"
+
+msgid "promo_not_list"
+msgstr "You have no promo codes 📭"
+
+msgid "promo_list_all"
+msgstr "All Promo Codes"
+
+msgid "promo_delete_text"
+msgstr "Promo code deleted ✅"
+
+msgid "message_new_user"
+msgstr "A new user has logged into the bot"
+
+msgid "error_promo_delete_text"
+msgstr "Error deleting promo code ‼️"
+
+msgid "application_paid"
+msgstr "Application paid👌"
+
+msgid "application_error_save"
+msgstr "Error occurred while saving ‼️"
+
+msgid "application_success_text"
+msgstr "✅ Paid ✅"
+
+msgid "server_name_error"
+msgstr "Name is too long!\nEnter another one"
+
+msgid "server_input_ip_text"
+msgstr "Enter the address of the panel <b>without http or https</b>\nExample:\n<code>125.146.138.241:2222\n125.146.138.241:2222/path\ndomain.ru/path</code>"
+
+msgid "server_input_ip_adres"
+msgstr "Enter the address of the panel\nExample: http://125.146.138.241:2222"
+
+msgid "server_input_password_text"
+msgstr "Enter the VDS password"
+
+msgid "server_input_type_server_text"
+msgstr "Select the server type"
+
+msgid "server_input_type_vpn_text"
+msgstr "Select the VPN type"
+
+msgid "server_input_url_cert_text"
+msgstr "Enter the server's URL and CertSHA.\nExample: <b>{\"apiUrl\":\"https://xxxx\",\"certSha256\":\"xxxx\"}</b>"
+
+msgid "server_input_choosing_type_connect_text"
+msgstr "Select the connection type"
+
+msgid "server_error_choosing_type_connect_text"
+msgstr "Unknown connection type"
+
+msgid "server_choosing_panel_control"
+msgstr "Select your control panel"
+
+msgid "server_input_id_connect_text"
+msgstr "Enter the connection ID on the panel"
+
+msgid "server_input_login_text"
+msgstr "Enter the login"
+
+msgid "server_input_password_panel_text"
+msgstr "Enter the panel password"
+
+msgid "server_error_connect"
+msgstr "📛Error!📛\nYou entered the data incorrectly\nOr the server is not responding"
+
+msgid "server_error_write_db_name"
+msgstr "📛Error!📛\nFailed to write to the database ❗"
+
+msgid "server_add_success"
+msgstr "<b>Protocol successfully added!</b> ✅"
+
+msgid "server_error_name_not_found"
+msgstr "Protocol with this name not found 🖥🚫"
+
+msgid "server_error_delete"
+msgstr "📛Error!📛\nFailed to delete Protocol❗"
+
+msgid "server_delete_success"
+msgstr "Protocol successfully deleted 👌"
+
+msgid "payment_autopay_text"
+msgstr "🎉 <b>Auto VPN purchase triggered:</b> you paid for "
+
+msgid "loop_autopay"
+msgstr "{text}{mount_count} months subscription"
+
+msgid "loop_autopay_error"
+msgstr "Error auto-renewing or auto-purchasing subscription for client with ID {telegram_id}"
+
+msgid "payment_success"
+msgstr "<b>Payment accepted ✅️</b>\nYou have been given a key 🔑 for <b>{total_month} month(s)</b> of subscription"
+
+msgid "payment_success_extend"
+msgstr "<b>Payment accepted ✅️</b>\nThe subscription key 🔑 has been extended for <b>{total_month} month(s)</b>"
+
+msgid "payment_success_switch"
+msgstr "<b>Payment accepted ✅️</b>\nYou can now change the key location 👍"
+
+msgid "donate_successful"
+msgstr "Thank you for your support ❤❤❤❤❤"
+
+msgid "reff_add_balance"
+msgstr "The user you referred has topped up their balance!\n You receive -> <b>{referral_balance} ₽</b> added to your referral balance 🎉🎉"
+
+msgid "description_payment"
+msgstr "Subscription payment"
+
+msgid "payment_button"
+msgstr "Pay"
+
+msgid "payment_balance_text"
+msgstr "Payment on <b>{price} ₽</b>"
+
+msgid "payment_balance_text2"
+msgstr "Payment in {price} rubles."
+
+msgid "inform_language"
+msgstr "<b>Ꮪᴇlᴇᴄᴛᴇd lᴀnguᴀgᴇ:</b>\n🇬🇧 Ꭼnglish"
+
+msgid "select_language"
+msgstr "Select a language"
+
+msgid "help_message"
+msgstr "How can we help you?"
+
+msgid "help_message_connect_protocol"
+msgstr "ℹ️Select the protocol 👇"
+
+msgid "donate_message"
+msgstr "💡 You can contribute to the development of the project and support us by sending funds here ⇩"
+
+msgid "donate_list_users"
+msgstr "People who supported the project:\n\n{users}"
+
+msgid "user_key_list_new_key"
+msgstr "🆕 Create a new key"
+
+msgid "user_key_list_message_connect"
+msgstr "Your keys 🔑\n⇩ Click to get or change ⇩"
+
+msgid "user_key_get"
+msgstr"Get 🔑"
+
+msgid "user_key_extend"
+msgstr"Extend ⏳"
+
+msgid "user_key_edit"
+msgstr"Change 🌎"
+
+msgid "day_small"
+msgstr "{day} d."
+
+msgid "hours_small"
+msgstr "{hours} h."
+
+msgid "user_key_list"
+msgstr"🔑 Key №{count_key} ({count_day}) {name} ({type_vpn_key})"
+
+msgid "user_key_list_admin"
+msgstr "🔑 Key ID:{count_key} ({count_day} day. {hours} hours) {name} ({type_vpn_key}) - {count_switch} shifts"
+
+msgid "user_key_list_no_server"
+msgstr "Connect the key to the server to edit it 😁"
+
+msgid "user_key_edit_pay"
+msgstr "The key has no free changes left,\none change costs {price_switch} ₽"
+
+msgid "server_edit_switch_key"
+msgstr " The type of shift in the location has been changed ✅"
+
+msgid "donate_input_price_text"
+msgstr "Enter the amount..."
+
+msgid "donate_input_price_text_not_num"
+msgstr "Please enter only whole numbers\nTry again"
+
+msgid "donate_input_price_text_limit"
+msgstr "The amount can be from 50 ₽ to 20000 ₽"
+
+msgid "want_use_promocode"
+msgstr "Would you like to use a promo code?"
+
+msgid "edit_key_input_key_id"
+msgstr "Enter the user's key ID"
+
+msgid "edit_key_input_key_id_error_number"
+msgstr "Enter integers"
+
+msgid "edit_key_input_key_id_error_not_found"
+msgstr "Key not found 😢"
+
+msgid "edit_key_new_key"
+msgstr "Enter the number of days of key subscription"
+
+msgid "edit_key_new_key_success"
+msgstr "Key created ✅"
+
+msgid "edit_key_new_key_success_message"
+msgstr "The administrator has added the key 😁 to you, click Connect 🔌 to select a server for it."
+
+msgid "edit_key_new_key_success_error"
+msgstr "The user could not receive the notification, he probably blocked the bot"
+
+msgid "edit_key_new_key_error_limit"
+msgstr "You can create a key with a time from 1 to 500 days"
+
+msgid "edit_key_delete_admin_message"
+msgstr "Key deleted 💢"
+
+msgid "edit_key_delete_admin_message_error_connect"
+msgstr "Failed to delete the key from the server, most likely the server is not responding"
+
+msgid "edit_key_delete_user_message"
+msgstr "⚠the administrator deleted the key for you"
+
+msgid "edit_key_input_new_time"
+msgstr "Enter the number of days for this key"
+
+msgid "edit_key_new_time_success_admin"
+msgstr "Key time updated ✅"
+
+msgid "edit_key_new_time_success_user"
+msgstr "The administrator changed the subscription time of your key 😁"
+
+msgid "edit_key_input_new_server"
+msgstr "Enter the server ID that you want to assign to the key\nYour servers:\n{server_string}"
+
+msgid "edit_key_input_new_server_not_found"
+msgstr "Server not found"
+
+msgid "edit_key_input_new_server_success_admin"
+msgstr "🖥 The key server has been changed ✅"
+
+msgid "edit_key_input_new_server_success_user"
+msgstr "The administrator has changed the server of your key 😁\n get a new config by clicking Connect🔌"
+
+msgid "edit_key_input_switch"
+msgstr "Enter the number of location shifts for this key"
+
+msgid "edit_key_input_switch_error_limit"
+msgstr "Maximum of 10k shifts"
+
+msgid "edit_key_input_switch_success_admin"
+msgstr "The number of location shifts has been updated ✅"
+
+msgid "edit_key_input_switch_success_user"
+msgstr "The administrator has updated the number of location shifts for your key "
+
+msgid "edit_client_blocked_message"
+msgstr "User unblocked 🔓"
+
+msgid "edit_client_unblocked_message"
+msgstr "User is blocked 🔐"
+
+msgid "admin_message_choosing_month"
+msgstr "User @{username} ID {user_id} has chosen a subscription period of {month_count} month(s)."
+
+msgid "admin_message_payment_success_trial_pay"
+msgstr "User {username} ID {user_id} has paid for {day} days at {price} RUB."
+
+msgid "admin_message_payment_success"
+msgstr "User {username} ID {user_id} has paid for {month_count} month(s) at {price} RUB."
+
+msgid "admin_message_payment_success_donate"
+msgstr "User {username} ID {user_id} has donated {price} RUB."
+
+msgid "admin_message_payment_success_switch"
+msgstr "User {username} ID {user_id} has paid for location change at {price} RUB."
+
+msgid "want_attach_button_mailing"
+msgstr "Do you want to attach a button to a message?"
+
+msgid "not_server_free_vpn"
+msgstr "We don't have any free servers yet 😓\try to log in later"
+
+msgid "download"
+msgstr "Download 🔄"
+
+msgid "metric_list_message"
+msgstr "Your metrics:"
+
+msgid "metric_show"
+msgstr "Name: {name}\nLink: {link}\n\nStatistics:\nNumber of users: {count_users}\nFree trial period: {count_trial_users}\nNumber of paid users: {count_user_payment}\nTotal amount of payments: {sum_payment}\n\nAll payments:\n{payments_tariff}"
+
+msgid "metric_add_name"
+msgstr "Enter the name of the metric\nfor example YouTube, Instagram"
+
+msgid "metric_remove"
+msgstr "Metric deleted"
+
+msgid "message_server_auto_show"
+msgstr ""
+"✅ {type_vpn} protocol on server {vds_ip} ({location_name}) is back online, "
+"and available for selection again <b>if in use</b>"
+
+msgid "message_server_auto_hidden"
+msgstr ""
+"❌ {type_vpn} protocol on server {vds_ip} ({location_name}) is offline, "
+"has been automatically hidden from user selection"
+
+#Button
+
+msgid "admin_metric_list_btn"
+msgstr "Metrics 📊"
+
+msgid "trial_period_btn"
+msgstr "Trial period 📆"
+
+msgid "edit_client_blocked"
+msgstr "Block 🔒"
+
+msgid "edit_client_unblocked"
+msgstr "Unblock 🔓"
+
+msgid "key_control_delete_key"
+msgstr "🔥 Delete key"
+
+msgid "key_control_edit_time"
+msgstr "🕑 Change key time"
+
+msgid "key_control_edit_server"
+msgstr "🖥 Change the key server"
+
+msgid "key_control_update_swith"
+msgstr "🔁 Change the number of location shifts"
+
+msgid "not_promo_code_menu_btn"
+msgstr "🔸Don't use🔸"
+
+msgid "promo_code_menu_btn"
+msgstr "🎟 {name_promo} - {percent}%"
+
+msgid "donate_input_price"
+msgstr "🖌 Enter the amount"
+
+msgid "donate_list"
+msgstr "😎 Sponsors"
+
+msgid "back_type_vpn"
+msgstr "Back ↩️"
+
+msgid "language_btn"
+msgstr "🌍 Language"
+
+msgid "subscription_btn"
+msgstr "Subscription 📅"
+
+msgid "donate_btn"
+msgstr "💸 Donate"
+
+msgid "promokod_btn"
+msgstr "🏷 Promo Code"
+
+msgid "help_btn"
+msgstr "📥 Support"
+
+msgid "free_vpn_connect_btn"
+msgstr "🎁 Free VPN"
+
+msgid "vpn_connect_btn"
+msgstr "🌍 VPN"
+
+msgid "affiliate_btn"
+msgstr "👥 Affiliate"
+
+msgid "bonus_btn"
+msgstr "To invite 🎁"
+
+msgid "about_vpn_btn"
+msgstr "🗞 About VPN"
+
+msgid "not_button_mailing_btn"
+msgstr " without the ❌ button"
+
+msgid "admin_panel_btn"
+msgstr "Admin panel 😎"
+
+msgid "to_extend_btn"
+msgstr "🌐 Renew"
+
+msgid "replenish_bnt"
+msgstr "Replenish 💵"
+
+msgid "general_menu_btn"
+msgstr "🖥 Main menu"
+
+msgid "back_general_menu_btn"
+msgstr "Main menu  ↩️"
+
+msgid "back_subscription_menu_btn"
+msgstr "Back  ↩️"
+
+msgid "back_balance_menu_btn"
+msgstr "Back  ↩️"
+
+msgid "not_uses_server_btn"
+msgstr "Not using ❌"
+
+msgid "uses_server_btn"
+msgstr "Using ✅"
+
+msgid "hidden_server_btn"
+msgstr "Hide 🙅‍♂️"
+
+msgid "show_server_btn"
+msgstr "Show 💁‍♂️"
+
+msgid "list_user_server_btn"
+msgstr "List of users 📄"
+
+msgid "pay_switch_server_btn"
+msgstr "💵 Enable paid change"
+
+msgid "not_pay_switch_server_btn"
+msgstr "💢 Disable paid change"
+
+msgid "delete_key_server_btn"
+msgstr "🔥 Reset keys 🔥"
+
+msgid "admin_user_add_time_btn"
+msgstr "Add time 🕘"
+
+msgid "admin_user_edit_keys_btn"
+msgstr "User keys 🔑"
+
+msgid "admin_user_message_client_btn"
+msgstr "Message client 💬"
+
+msgid "admin_user_delete_time_btn"
+msgstr "Reset time 💢"
+
+msgid "definitely_dropping_btn"
+msgstr "Definitely resetting!"
+
+msgid "delete_static_user_btn"
+msgstr "Delete 💢"
+
+msgid "admin_user_mailing_all_btn"
+msgstr "To all 📒"
+
+msgid "admin_user_mailing_sub_btn"
+msgstr "With subscription only 📗"
+
+msgid "admin_user_mailing_not_sub_btn"
+msgstr "Without subscription only 📕"
+
+msgid "admin_user_mailing_update_btn"
+msgstr "⚙️ Update client ⚙️"
+
+msgid "promo_add_new_btn"
+msgstr "Create new ➕"
+
+msgid "promo_show_all_btn"
+msgstr "Show all promocodes 📤"
+
+msgid "applications_show_all_btn"
+msgstr "Show all applications 📙"
+
+msgid "applications_show_active_btn"
+msgstr "Show only active 📘"
+
+msgid "applications_success_btn"
+msgstr "Paid out ✅"
+
+msgid "payments_yookassa_btn"
+msgstr "ЮᏦᴀssᴀ ⚡️"
+
+msgid "payments_yoomoney_btn"
+msgstr "🟣Yoomoney"
+
+msgid "payments_cryptomus_btn"
+msgstr "🎲Cryptomus"
+
+msgid "payments_heleket_btn"
+msgstr "🔥Heleket"
+
+msgid "payments_lava_btn"
+msgstr "🌋Lava"
+
+msgid "payments_cyrptobot_btn"
+msgstr "Crypto Bot 🏧"
+
+msgid "payments_stars_btn"
+msgstr "TeleStars ✨️"
+
+msgid "payments_wawa_btn"
+msgstr "Wata Card"
+
+msgid "payments_wawa_spb_btn"
+msgstr "Wata SBP"
+
+msgid "payments_wawa_visa_btn"
+msgstr "Wata Visa"
+
+msgid "payments_not_btn_1"
+msgstr "Replenishment is not available 😭"
+
+msgid "payments_not_btn_2"
+msgstr "Please try again later"
+
+msgid "to_extend_month_btn"
+msgstr "{count_month} months 📅 - {price} ₽"
+
+msgid "to_extend_month_1_btn"
+msgstr "1 Month - {price}₽"
+
+msgid "to_extend_month_2_btn"
+msgstr "3 Months - {price}₽"
+
+msgid "to_extend_month_3_btn"
+msgstr "6 Months - {price}₽"
+
+msgid "to_extend_month_4_btn"
+msgstr "12 Months - {price}₽"
+
+msgid "instruction_payment_btn"
+msgstr "Payment instructions 🧾"
+
+msgid "user_pay_sub_btn"
+msgstr "Pay 💳"
+
+msgid "instruction_use_iphone_btn"
+msgstr "Instructions for iPhone"
+
+msgid "instruction_use_android_btn"
+msgstr "Instructions for Android"
+
+msgid "instruction_use_pc_btn"
+msgstr "Instructions for PC"
+
+msgid "instruction_check_vpn_btn"
+msgstr "Check VPN"
+
+msgid "user_share_btn"
+msgstr "📣 Share"
+
+msgid "withdraw_funds_btn"
+msgstr "💰Withdraw funds (Min. {min_withdrawal_amount}₽)"
+
+msgid "enough_funds_withdraw_btn"
+msgstr "💰Withdraw funds (Min. {min_withdrawal_amount}₽)"
+
+msgid "write_the_admin_btn"
+msgstr "Write to admin 💬"
+
+msgid "not_work_btn"
+msgstr "VPN is not working ❌"
+
+msgid "wath_connect_btn"
+msgstr "How to connect ❓"
+
+msgid "write_the_promo_btn"
+msgstr "Enter..."
+
+msgid "admin_user_send_reply_btn"
+msgstr "Reply 💬"
+
+msgid "admin_group_control_message"
+msgstr "Group Management 📲"
+
+msgid "admin_group_list_groups"
+msgstr "📋 List of Groups:"
+
+msgid "admin_group_list_groups_none"
+msgstr "No clients in the group"
+
+msgid "admin_group_list_groups_file"
+msgstr "File with group users"
+
+msgid "admin_group_user_input_id"
+msgstr "Send user IDs\nUser IDs should be separated by comma ,"
+
+msgid "admin_group_user_add_success"
+msgstr "✅ Users added:"
+
+msgid "admin_group_user_exclude_success"
+msgstr "☑️ Users excluded:"
+
+msgid "admin_group_delete_success"
+msgstr "🔥🔥 Group deleted 🔥🔥"
+
+msgid "admin_group_add_input_name"
+msgstr "Send the group name,\nnames should not be repeated"
+
+msgid "admin_group_add_success"
+msgstr "✅ Group successfully added"
+
+msgid "admin_group_add_error"
+msgstr "Error adding group\nYou may have a group with the same name"
+
+msgid "admin_locations_list"
+msgstr "Your locations:"
+
+msgid "locations_list_not_found"
+msgstr "You don't have any locations ⚠️"
+
+msgid "location_input_name_text"
+msgstr "Enter a name for the Locations"
+
+msgid "location_input_id_text"
+msgstr "Enter the location id"
+
+msgid "location_create_text"
+msgstr " Locations created ✅"
+
+msgid "location_not_found_text"
+msgstr " Locations not found ⚠️"
+
+msgid "location_input_new_name_text"
+msgstr " Enter a new name for the location {location_name}"
+
+msgid "location_new_name_success_text"
+msgstr " Locations has a new name ✅"
+
+msgid "location_work_text"
+msgstr "Locations {location_name} is now used ✅"
+
+msgid "location_not_work_text"
+msgstr "Locations {location_name} is no longer in use ⚠️"
+
+msgid "location_delete_text"
+msgstr " Locations {location_name} deleted 🔥"
+
+msgid "location_not_delete_text"
+msgstr "❌ Error, first you need to delete all vds and protocols"
+
+msgid "vds_list_text"
+msgstr "Your servers are in location {location_name}"
+
+msgid "ads_input_name_text"
+msgstr "Write the name of the server, it may be the name of the hosting or something else"
+
+msgid "vds_input_ip_text"
+msgstr "Write the server ip"
+
+msgid "vds_input_ip_text_duplicate"
+msgstr " You already have a server with this ip!\nRewrite the ip address"
+
+msgid "vds_input_password_text"
+msgstr "Write the password from the server"
+
+msgid "vds_input_max_client_text"
+msgstr "Write the maximum number of clients for this server.\nas an example, if the server has a bandwidth of 200mb/s, then about 120 people can fit on it"
+
+msgid "vds_create_text"
+msgstr "Server can be created ✅"
+
+msgid "vds_work_text"
+msgstr "Server {vds_ip} is now in use ✅"
+
+msgid "vds_not_work_text"
+msgstr "Server {vds_ip} is no longer in use ⚠️"
+
+msgid "vds_edit_name_success_text"
+msgstr "Server has a new name set ✅"
+
+msgid "vds_edit_ip_success_text"
+msgstr "The server has a new ip installed ✅"
+
+msgid "vds_edit_pass_success_text"
+msgstr "The server has set a new password ✅"
+
+msgid "vds_edit_limit_success_text"
+msgstr "Server has set a new limit ✅"
+
+msgid "vds_edit_del_success_text"
+msgstr "Server {server_ip} successfully deleted 🔥"
+
+msgid "vds_edit_not_del_success_text"
+msgstr "❌ Error, first you need to delete all protocols"
+
+msgid "protocol_list_text"
+msgstr " Your protocols on the server {vds_ip}"
+
+#Admin Button
+
+msgid "admin_statistic_metric"
+msgstr "Metric statistics 📊"
+
+msgid "admin_free_server_btn"
+msgstr "Free"
+
+msgid "admin_not_free_server_btn"
+msgstr "Paid"
+
+msgid "admin_back_admin_menu_btn"
+msgstr "Back ⤵️"
+
+msgid "admin_back_users_menu_btn"
+msgstr "Back ⤵️"
+
+msgid "admin_users_btn"
+msgstr "Users 👤"
+
+msgid "admin_promo_btn"
+msgstr "Promo codes 🏷"
+
+msgid "admin_servers_btn"
+msgstr "Servers 🖥"
+
+msgid "admin_locations_btn"
+msgstr "Locations 🌍"
+
+msgid "admin_locations_add_btn"
+msgstr "Add ➕"
+
+msgid "admin_locations_edit_btn"
+msgstr "Change name 🖋"
+
+msgid "admin_locations_del_btn"
+msgstr "Delete 🔥"
+
+msgid "admin_locations_work_btn"
+msgstr "On/Off location 💡"
+
+msgid "admin_locations_control_vds_btn"
+msgstr "VDS Management 🕋"
+
+msgid "admin_reff_system_btn"
+msgstr "Referral system 🈶"
+
+msgid "admin_send_message_users_btn"
+msgstr "Send message 💬"
+
+msgid "admin_show_statistic_btn"
+msgstr "Show statistics 👥"
+
+msgid "admin_edit_user_btn"
+msgstr "Edit users ✏️"
+
+msgid "admin_static_user_btn"
+msgstr "Static users 📔"
+
+msgid "admin_static_add_user_btn"
+msgstr "Add user ➕"
+
+msgid "admin_static_show_users_btn"
+msgstr "Show static users 🧾"
+
+msgid "admin_exit_btn"
+msgstr "Exit ❌"
+
+msgid "admin_statistic_show_all_users_btn"
+msgstr "All users 🗂"
+
+msgid "admin_statistic_ref_bord_btn"
+msgstr "Referral leaderboard 👯‍♀️"
+
+msgid "ref_name"
+msgstr "ID"
+
+msgid "ref_username"
+msgstr "Username"
+
+msgid "ref_count_user"
+msgstr "User count"
+
+msgid "ref_count_trial_user"
+msgstr "Trial started"
+
+msgid "ref_count_end_trial_user"
+msgstr "Trial expired"
+
+msgid "ref_count_user_payment"
+msgstr "Subscription purchased"
+
+msgid "ref_count_user_payment_not_sub"
+msgstr "Subscription ended"
+
+msgid "list_of_ref_bord_file"
+msgstr "Referral statistics"
+
+msgid "error_list_of_ref_bord_file"
+msgstr "Error generating file"
+
+msgid "list_of_none_ref_board_file"
+msgstr "No users found"
+
+msgid "admin_statistic_show_sub_users_btn"
+msgstr "With subscription ✅"
+
+msgid "admin_statistic_show_payments_btn"
+msgstr "Payments 💵"
+
+msgid "admin_server_show_all_btn"
+msgstr "All servers 📊"
+
+msgid "admin_server_add_btn"
+msgstr "Add server ➕"
+
+msgid "admin_server_delete_btn"
+msgstr "Delete protocol 🗑"
+
+msgid "admin_server_cancellation"
+msgstr "Cancel ⛔️"
+
+msgid "admin_users_cancellation"
+msgstr "Cancel ❌"
+
+msgid "admin_groups_btn"
+msgstr "Groups 👥"
+
+msgid "admin_groups_show_btn"
+msgstr "Show groups 👁‍🗨"
+
+msgid "admin_groups_add_btn"
+msgstr "Add group ➕"
+
+msgid "admin_groups_client_show_btn"
+msgstr "Group clients 👨‍👩‍👧‍👦"
+
+msgid "admin_groups_client_add_btn"
+msgstr"Add ➗"
+
+msgid "admin_groups_client_exclude_btn"
+msgstr "Exclude ➖"
+
+msgid "admin_groups_client_delete_btn"
+msgstr "Delete group 🔥"
+
+msgid "admin_vds_control_protocol_btn"
+msgstr "Protocol Management 🔌"
+
+msgid "admin_vds_work_btn"
+msgstr "On/Off location 💡"
+
+msgid "admin_vds_edit_name_btn"
+msgstr "New name ✏️"
+
+msgid "admin_vds_edit_password_btn"
+msgstr "New pass ✏️"
+
+msgid "admin_vds_edit_ip_btn"
+msgstr "New ip ✏️"
+
+msgid "admin_vds_edit_limit_btn"
+msgstr "New limit ✏️"
+
+msgid "admin_vds_del_btn"
+msgstr "Delete server 🔥"
+
+msgid "admin_vds_add_protocol_btn"
+msgstr "Add protocol ✳️"
+
+msgid "server_input_api_token_text"
+msgstr "Enter the x-ui panel API token\n\n<b>How to get the token:</b>\nGo to x-ui panel → Settings → API Token → Copy the token"
+
+msgid "server_choose_auth_method_text"
+msgstr "Select the authorization method for the panel"
+
+msgid "server_auth_token_btn"
+msgstr "🔑 API Token"
+
+msgid "server_auth_login_btn"
+msgstr "👤 Login / Password"
+
+msgid "server_api_token_s"
+msgstr "🔑 API Token: "
+
+msgid "server_input_sub_path_text"
+msgstr "📶 <b>Happ Subscription Setup</b>\n\nEnter the subscription path (e.g.: <code>sub</code>)\n\nThe link will look like:\n<code>http://ip:port/<b>path</b>/subId</code>\n\nOr press the button below to skip."
+
+msgid "server_sub_path_skip_btn"
+msgstr "❌ Skip (no subscription)"
+
+msgid "happ_sub_url_text"
+msgstr "📲 <b>Happ Subscription Link:</b>\n<code>{sub_url}</code>"
+
+msgid "server_sub_path_s"
+msgstr "📶 Subscription path: "
+

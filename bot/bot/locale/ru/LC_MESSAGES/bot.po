@@ -1,0 +1,1657 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-10 16:40+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "error_check_follow"
+msgstr "❗️ Бот не может проверять подписку на выбранный канал!\nДобавьте бота в администраторы канала, и проверьте данные в конфигурации"
+
+msgid "no_follow"
+msgstr "🌐 Для доступа к материалам, пожалуйста, подпишитесь на наш информационный канал.\nЭто важно для получения полной информации!"
+
+msgid "no_follow_button"
+msgstr "🔍 Проверьте вашу подписку ✅"
+
+msgid "no_follow_bad_check"
+msgstr "❌ Вы не подписаны на канал. Пожалуйста, проверьте вашу подписку и попробуйте ещё раз."
+
+msgid "hello_message"
+msgstr "<b>🛡️ Благодарим вас за выбор! Мы гарантируем вашу безопасность! 🛡️</b>\n\n✦ <b>Поддержка всех платформ:</b> Android, Windows, macOS, Linux, iOS\n\n✦ <b>🔥 Присоединяйтесь к нам</b> и наслаждайтесь <b>анонимностью</b> и безопасностью без потери скорости!\n\n✦ <b>🚀 Мгновенный доступ к любым сайтам и сервисам —</b> никаких ограничений и блокировок, где бы вы ни находились!\n\n✦ <b>🔒 Ваша активность под надёжной защитой —</b> никто, кроме вас, не узнает, что вы делаете в сети!\n\n✦ <b>🛡️ Ваши данные защищены на высшем уровне —</b> только вы имеете к ним доступ, в отличие от бесплатных VPN-сервисов.\n\n✦ <b>∞ Никаких лимитов на использование трафика —</b> полная свобода в интернете!\n\n✦ <b>⚙️ Лёгкая настройка и подключение —</b> наш сервис интуитивно понятен и готов к использованию сразу после установки."
+
+msgid "trial_message"
+msgstr "🚀 Познакомьтесь с нашим VPN бесплатно!\n🎉 Мы предоставляем вам 1 день подписки, чтобы вы могли оценить все его преимущества. 🌐🔑"
+
+msgid "not_trial_message"
+msgstr "🌚 Вы уже использовали пробный период"
+
+msgid "about_message"
+msgstr "<b>{name_bot} - инновационный VPN-сервис, предоставляющий современное решение для безопасного и анонимного интернета.</b>\n\nОсновные преимущества нашего сервиса:\n\n🌐 <b>Высокая скорость</b>: Благодаря передовым технологиям и стабильным протоколам, вы сможете наслаждаться интернетом без потерь в скорости.\n\n🔒 <b>Полная безопасность</b>: Мы не собираем логи и конфиденциальные данные, что гарантирует вашу полную анонимность и конфиденциальность в интернете.\n\n📱 <b>Мультиплатформенность</b>: Поддержка всех популярных платформ позволяет вам использовать наш сервис на любых устройствах.\n\n📈 <b>Без ограничений</b>: Пользуйтесь интернетом без ограничений по трафику и скорости.\n\nВыбирая {name_bot}, вы получаете надежную защиту и высокую производительность, обеспечивая себе свободу и безопасность в интернете."
+
+msgid "choosing_connect_type"
+msgstr "Выберите протокол VPN 🔌"
+
+msgid "choosing_connect_location"
+msgstr "🌐 Выберите локацию для подключения 👇"
+
+msgid "how_to_connect"
+msgstr "⇩ Ваш ключ для подключения 🔑 {name_vpn}\n```\n{config}\n```"
+
+msgid "how_to_connect_wg"
+msgstr "⬆️ Ваш ключ для подключения 🔑 {name_vpn}"
+
+msgid "success_pay_message"
+msgstr "<b>✅ Платёж успешно завершён!</b>\n🎉 Ваша подписка продлена, спасибо, что остаетесь с нами! 😊"
+
+msgid "ended_sub_message"
+msgstr "🚨 Ваша подписка на один из ключей закончилась!🔒\n\nЕсли вы хотите продолжить пользоваться нашими услугами, пожалуйста, продлите подписку. 😊"
+
+msgid "alert_to_renew_sub"
+msgstr "🔔 Внимание!\nСрок действия одного из ваших ключей истекает в течение суток. Чтобы продлить подписку, нажмите на кнопку ниже и выберите нужный ключ. ⏳👇"
+
+msgid "donated_days"
+msgstr "🎉Поздравляю\nАдминистратор добавил вам бесплатные дни подписки 😁😁"
+
+msgid "instruction_iphone_vless"
+msgstr "https://telegra.ph/Instrukciya-po-podklyucheniyu-VPN-Vless-i-ShadowSocks-dlya-IPhone-08-25"
+
+msgid "instruction_android_vless"
+msgstr "https://telegra.ph/Instrukciya-po-podklyucheniyu-VPN-Vless-dlya-Android-05-01"
+
+msgid "instruction_windows_vless"
+msgstr "https://telegra.ph/Instrukciya-po-podklyucheniyu-VPN-Vless-i-ShadowSocks-dlya-PK-08-25"
+
+msgid "instruction_iphone_outline"
+msgstr "https://telegra.ph/Instrukciya-po-ustanovke-Outline-na-IPhone-08-25"
+
+msgid "instruction_android_outline"
+msgstr "https://telegra.ph/Instrukciya-po-ustanovke-Outline-na-Android-08-25"
+
+msgid "instruction_windows_outline"
+msgstr "https://telegra.ph/Instrukciya-na-ustanovku-Outline-Windows-08-25"
+
+msgid "instruction_iphone_wg"
+msgstr "https://telegra.ph/Nastrojka-podklyucheniya-Wireguard-dlya-iPhone-05-04"
+
+msgid "instruction_android_wg"
+msgstr "https://telegra.ph/Nastrojka-podklyucheniya-Wireguard-dlya-Android-05-04"
+
+msgid "instruction_windows_wg"
+msgstr "https://telegra.ph/Kak-ustanovit-WireGuard-05-04"
+
+msgid "instruction_iphone_amnezia_wg"
+msgstr "https://telegra.ph/Kak-ustanovit-AmneziaWG-na-IPhone-05-04"
+
+msgid "instruction_android_amnezia_wg"
+msgstr "https://telegra.ph/Kak-ustanovit-AmneziaWG-na-Android-05-04"
+
+msgid "instruction_windows_amnezia_wg"
+msgstr "https://telegra.ph/Kak-ustanovit-AmneziaWG-na-Windows-05-04"
+
+msgid "referral_error"
+msgstr "Нельзя приглашать самого себя ❌"
+
+msgid "referral_new_user"
+msgstr "Спасибо что пригласили друга 😊😘 \nВ благодарность мы даем вам {day} дн. бесплатного доступа к VPN 🫡\nВыберете к какому ключу вам добавить время"
+
+msgid "referral_new_user_zero"
+msgstr "Спасибо что пригласили друга, он становится вашим рефералом 😊😘"
+
+msgid "referral_new_user_success"
+msgstr "Время добавлено ✅"
+
+msgid "referral_promo_code"
+msgstr "🎁 Введите специальный промокод, чтобы получить скидку!"
+
+msgid "referral_promo_code_none"
+msgstr "Промокод не найден 😥"
+
+msgid "referral_system_message"
+msgstr "При переходе по вашей пригласительной ссылке клиент становится вашим рефералом"
+
+msgid "referral_system_success"
+msgstr "Заявка на вывод создана, ожидайте поступления средств 👍"
+
+msgid "main_message"
+msgstr "🚀 Обновление бота!"
+
+msgid "not_server"
+msgstr "На данный момент нет свободных серверов😞\nПопробуйте позже"
+
+msgid "server_not_connected"
+msgstr "Сервер не отвечает😞 попробуйте позже"
+
+msgid "error_send_admin"
+msgstr "Возникла ошибка свяжитесь с администратором"
+
+msgid "error_add_server_client"
+msgstr "Неудалось добавть сервер к клиенту"
+
+msgid "config_user"
+msgstr "⇧ Ваш ключ для подключения 🔑 {name_vpn}"
+
+msgid "inform_subscription"
+msgstr "🗓Информация по подписке🗓"
+
+msgid "balance_message"
+msgstr "Баланс 🤑"
+
+msgid "method_replenishment"
+msgstr "👇 Выберите способ оплаты:"
+
+msgid "method_replenishment_promo"
+msgstr "Вы <b>применили</b> промокод на скидку <b>{percent}%</b> 🏷\n👇 Выберете способ оплаты:"
+
+msgid "choosing_month_sub"
+msgstr "⇩ Выберите тариф:"
+
+msgid "success_payment_exist_admin"
+msgstr "🎉 Пользователь {full_name}({user_id}) приобрел подписку на {count_m} мес. 📆"
+
+msgid "success_payment_exist"
+msgstr "🎉 Вы <b>успешно</b> оплатили {month_count} мес."
+
+msgid "choosing_amount_menu"
+msgstr "Выберете сумму пополнения"
+
+msgid "input_email_check"
+msgstr "📥 Введите ваш Email, мы отправим вам чек:"
+
+msgid "think_email_check"
+msgstr "Спасибо! Мы отправим чек на указанную почту"
+
+msgid "error_email_input"
+msgstr "Email введён не правльно попробуйте еще раз"
+
+msgid "your_referral_link"
+msgstr "Ваша реферальная ссылка: \n {link_ref}\n "
+
+msgid "affiliate_reff_text"
+msgstr "За каждого реферала вы получаете <b>{referral_percent}% от суммы пополнения баланса</b>\nМинимальная сумма на вывод: <b>{minimum_amount}</b> ₽\n\n---- 🫂 Количество ваших рефералов → <i>{count_referral_user}</i>\n\n---- 💰 Доступно на вывод [<b> {balance}₽</b> ]"
+
+msgid "affiliate_reff_text_new"
+msgstr "Если у вас есть возможность привлекать клиентов, мы предлагаем вам отличную возможность <b>заработать</b>:\n\n➤ При переходе пользователя по вашей реферальной ссылке он становится вашим <b>рефералом</b>. 👥\n\n➤ За каждого реферала вы получаете {percent}% от суммы покупки. 💰\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\nВаша реферельная ссылка:\n<b>{ref_link}</b>\n\n👥 Количество ваших рефералов: {count_referral_user} чел.\n\n💸 Доступно на вывод: {balance} ₽"
+
+msgid "input_promo_user"
+msgstr "Введите промокод 👇👇👇"
+
+msgid "input_amount_withdrawal_min"
+msgstr "Введите сумму для вывода, минимум {minimum_amount}"
+
+msgid "error_incorrect"
+msgstr "Некорректный ввод, попробуйте еще раз"
+
+msgid "where_transfer_funds"
+msgstr "Введите куда вам перевести средства\nНапример: Сбербанк 89777777777"
+
+msgid "how_i_contact_you"
+msgstr "Как с вами можно связаться?\nПочта ✉️,Номер телефона 📱, ссылка на соц. сеть 🖥"
+
+msgid "withdrawal_funds_has_been"
+msgstr "Запрошен вывод средств на {amount} ₽"
+
+msgid "error_withdrawal_funds_not_balance"
+msgstr "У вас недостаточно средств для вывода указанной суммы"
+
+msgid "promo_success_user"
+msgstr "Поздравляю! 😄 вы получили промокод который дает вам скидку в <b>{percent}%</b>"
+
+msgid "uses_promo_user"
+msgstr "Вы уже использовали этот промокод 😉"
+
+msgid "input_message_user_admin"
+msgstr "📥 Оставьте сообщение, и мы с удовольствием вам ответим!"
+
+msgid "message_user_admin"
+msgstr "Пользователь {fullname} ( {username} |  {telegram_id} ) написал вам сообщение \n "
+
+msgid "message_user_admin_success"
+msgstr "Администаратор получил ваше сообщение 👌"
+
+msgid "error_message_user_admin_success"
+msgstr "Администаратор не смог получить ваше сообщение 😿"
+
+msgid "type_vpn_outline"
+msgstr "Outline 🪐"
+
+msgid "type_vpn_vless"
+msgstr "Vless 🐊"
+
+msgid "type_vpn_shadowsocks"
+msgstr "ShadowSocks 🦈"
+
+msgid "type_vpn_none"
+msgstr "В боте нету серверов, попробуйте зайти позже"
+
+msgid "error_month_count"
+msgstr "Сообщение с оплатой устарело, пожалуйста начните заново"
+
+msgid "no_connect_key_message"
+msgstr "не подключён ⚠️"
+
+# Admin Handlers
+
+msgid "message_mailing_status"
+msgstr "Статус выполния рассылки {percent}%"
+
+msgid "space_message"
+msgstr ""
+"На сервере {vds_ip} локации {locale_name}\n"
+"Занято {actual_space} из {max_spase}"
+
+msgid "dump_message"
+msgstr "Ежедневное сохранение вашей базы данных"
+
+msgid "message_text_user"
+msgstr "Пользователь"
+
+msgid "message_text_user_input_promo"
+msgstr "ввел промокод"
+
+msgid "groups_counts_zero"
+msgstr "🔸 У вас нету групп 🔸"
+
+msgid "group_input_name"
+msgstr "Введите имя группы 🖊"
+
+msgid "group_name_not_found"
+msgstr "Группа с названием {name} не найдена\nВведите еще раз"
+
+msgid "groups_max_count"
+msgstr "Максимальное количество групп {count}"
+
+msgid "input_number_group_s"
+msgstr "Введите № группы в которую хотите добавить сервер\nЕсли хотите оставить сервер без группы то введите 0\n\nВаши группы:\n "
+
+msgid "error_input_number_group_s"
+msgstr "Группа с № {group_id} не найдена, введите заново"
+
+msgid "error_name_static_space"
+msgstr "Имя не может содержать пробелы"
+
+msgid "error_name_static_lower"
+msgstr "Имя содержит заглавные буквы, пожалуйста, преобразуйте их в строчные"
+
+msgid "error_name_static_len"
+msgstr "Имя не может быть длиннее 30 символов"
+
+msgid "error_name_static_email"
+msgstr "Имя содержит недопустимые символы, пожалуйста, используйте только строчные английские буквы, цифры и @._-"
+
+msgid "admin_user_manager_m"
+msgstr "Управление пользователями 📝"
+
+msgid "list_of_all_users_file"
+msgstr "Список всех пользователей"
+
+msgid "user_fullname"
+msgstr "Имя"
+
+msgid "user_username"
+msgstr "Никнейм"
+
+msgid "user_tgid"
+msgstr "ID"
+
+msgid "user_lang_tg"
+msgstr "Язык в ТГ"
+
+msgid "user_balance"
+msgstr "Баланс"
+
+msgid "user_referral_balance"
+msgstr "Реферальный баланс"
+
+msgid "user_group"
+msgstr "Группа"
+
+msgid "user_key"
+msgstr "Ключи"
+
+msgid "user_server"
+msgstr "Сервер"
+
+msgid "payment_system"
+msgstr "Платежная система"
+
+msgid "payment_amount"
+msgstr "Сумма"
+
+msgid "payment_date"
+msgstr "Дата"
+
+msgid "metric_name"
+msgstr "Название"
+
+msgid "metric_link"
+msgstr "Ссылка"
+
+msgid "statistic_locations"
+msgstr "📊 Статистика локаций"
+
+msgid "locations_statistic_name_location"
+msgstr "Локация"
+
+msgid "locations_statistic_name_server"
+msgstr "Сервер"
+
+msgid "locations_statistic_ip"
+msgstr "IP"
+
+msgid "locations_statistic_password"
+msgstr "Пароль"
+
+msgid "locations_statistic_protocol"
+msgstr "Протокол"
+
+msgid "locations_statistic_actual_space"
+msgstr "Занято мест"
+
+msgid "locations_statistic_free_space"
+msgstr "Свободно мест"
+
+msgid "locations_statistic_max_space"
+msgstr "Максимум мест"
+
+msgid "locations_statistic_result_server"
+msgstr "🕋 Итого по серверу"
+
+msgid "locations_statistic_result_locations"
+msgstr "🌍 Итого по локации"
+
+msgid "locations_statistic_result_bot"
+msgstr "🤖 Итого по боту"
+
+msgid "list_of_locations_file"
+msgstr "Статистика занятости по локациям"
+
+msgid "none_list_of_locations_file"
+msgstr "Локаций с активными серверами не обнаружено 😥"
+
+msgid "metric_count_user"
+msgstr "Количество пользователей"
+
+msgid "metric_count_trial_user"
+msgstr "Пробник взяли"
+
+msgid "metric_count_end_trial_user"
+msgstr "Пробник закончился"
+
+msgid "metric_count_user_payment"
+msgstr "Подписку купили"
+
+msgid "metric_count_user_payment_not_sub"
+msgstr "Подписка закончилась"
+
+msgid "error_list_of_all_users_file"
+msgstr "Ошибка при выводе всех пользователей"
+
+msgid "none_list_of_sub_users_file"
+msgstr "У вас нет пользователей с подпиской 😥"
+
+msgid "list_of_sub_users_file"
+msgstr "Список пользователей с активной подпиской"
+
+msgid "error_list_of_sub_users_file"
+msgstr "Ошибка при выводе пользователей с подпиской"
+
+msgid "list_of_payments_file"
+msgstr "Список поступлений"
+
+msgid "none_list_of_payments_file"
+msgstr "На ваших кошельках нет поступлений 😥"
+
+msgid "error_list_of_payments_file"
+msgstr "Ошибка при выводе платежей"
+
+msgid "list_of_metric_file"
+msgstr "Статистика по метрикам"
+
+msgid "error_list_of_metric_file"
+msgstr "Ошибка при выводе файла"
+
+msgid "write_payments_file_str"
+msgstr "{count}) Пользователь: {user}({user_id}) - Платежная система: {payment_system} - Сумма: ({amount} руб.) | Дата: {date}\n "
+
+msgid "input_telegram_id_user_m"
+msgstr "Введите Telegram Id пользователя:"
+
+msgid "input_user_chat_btn"
+msgstr "Выбрать пользователя из контактов"
+
+msgid "card_client_admin_m"
+msgstr ""
+"👤 Клиент: {fullname}\n"
+"🔗 Ссылка: {username}\n"
+"🆔: {telegram_id} \n"
+"🏳️ Язык в ТГ: {lang_code} \n"
+"Статус: {status} \n"
+"Реф. процент: {ref_percent}% \n"
+"💎 Реф. баланс: {referral_balance} ₽\n"
+"🔑 Ключи: {keys} шт.\n"
+"Группа: {group}\n "
+
+msgid "card_client_admin_status_partner"
+msgstr "Партнёр"
+
+msgid "card_client_admin_status_default"
+msgstr "Обычный клиент"
+
+msgid "edit_client_input_percent_message"
+msgstr "Напишите реф. процент который будет получать пользователь\nОт 1 до 100%"
+
+msgid "edit_client_status_partner_message"
+msgstr "Пользователь теперь партнёр"
+
+msgid "edit_client_status_default_message"
+msgstr "Пользователь стал обычным клиентом"
+
+msgid "edit_client_partner"
+msgstr "Сделать партнёром"
+
+msgid "edit_client_default"
+msgstr "Сделать обычным пользователем"
+
+msgid "card_client_admin_m_sub"
+msgstr "📆 Подписка{subscription}"
+
+msgid "card_client_admin_m_none_sub"
+msgstr "📆 Без подписки ❌"
+
+msgid "card_client_admin_m_client_none"
+msgstr "Пользователь не найден 😥"
+
+msgid "input_count_day_add_time_m"
+msgstr "Введите количество дней которое хотите добавить пользователю"
+
+msgid "keys_users_edit_admin"
+msgstr "Ключи пользователя 🙎🏼 {full_name}-{telegram_id}"
+
+msgid "input_balance_limit_m"
+msgstr "Минимум 0, а максимум 1000000, введите заново"
+
+msgid "incorrect_input_edit_balance"
+msgstr "Неверный ввод, попробуйте заново"
+
+msgid "input_balance_success_m"
+msgstr "Баланс пользователя обновлен ✅"
+
+msgid "user_message_input_balance_admin_m"
+msgstr "👋 Администратор обновил вам баланс 💵,\n теперь он составляет <b>{balance}</b> ₽\n вы можете написать ✉️ что бы узнать подробности 😁"
+
+msgid "message_user_block_bot"
+msgstr "❌ Ошибка при отправке, вероятно пользователь заблокировал бота 🤖"
+
+msgid "error_write_bd_new_balance"
+msgstr "Не получилось записать в БД новый баланс"
+
+msgid "back_you_back"
+msgstr "Вернул вас назад"
+
+msgid "limit_count_day_sub_m"
+msgstr "Максимум 2000 дней 😉"
+
+msgid "incorrect_input_count_day_sub"
+msgstr "Неверный ввод, ожидалось целое число, попробуйте еще раз"
+
+msgid "input_count_day_sub_success"
+msgstr "Пользователю {username} добавилось указанное количество дней"
+
+msgid "error_not_found"
+msgstr "‼️ Ошибка! Что то пошло не так ‼️"
+
+msgid "error_input_count_day_sub_success"
+msgstr "Пользователь не узнал что вы ему добавили дни, скорее всего он заблокировал бота"
+
+msgid "user_delete_time_m"
+msgstr "Пользователю {username} сброшено время"
+
+msgid "error_user_delete_time_m"
+msgstr "Пользователь не узнал что у него закончилась подписка, скорее всего он заблокировал бота"
+
+msgid "select_menu_item"
+msgstr "Выберете пункт меню:"
+
+msgid "choose_location"
+msgstr "Выберете на какой локации хотите создать пользователя"
+
+msgid "choose_vds"
+msgstr "Выберете сервер"
+
+msgid "choose_protocol"
+msgstr "Выберете протокол"
+
+msgid "static_input_name_user"
+msgstr "Введите имя пользователя, не обязательно брать из Telegram вы можете написать любое"
+
+msgid "server_not_found"
+msgstr "Сервер не найден, попробуйте еще раз"
+
+msgid "server_input_number_group_error"
+msgstr "Вы ввели не число ❗️\nВведите еще раз"
+
+msgid "incorrect_name_user"
+msgstr "Имя слишком длинное!\nНе используйте смайлы"
+
+msgid "error_connect_serer"
+msgstr "Произошла ошибка при подключении к серверу"
+
+msgid "error_write_bd_key_create"
+msgstr "Ошибка при записи в базу данных, имена пользователей должны быть уникальны"
+
+msgid "static_user_create_success"
+msgstr "Пользователь <b>{name}</b> на сервере создан ✅"
+
+msgid "none_list_static_user"
+msgstr "У вас нету статичный пользователей"
+
+msgid "error_get_static_user"
+msgstr "Ошибка при запросе к базе данных"
+
+msgid "list_static_user"
+msgstr "Список статических пользователей:"
+
+msgid "list_static_user_none_server_delete"
+msgstr "Пользователь без сервера удален"
+
+msgid "show_user"
+msgstr "Пользователь: "
+
+msgid "show_user_2"
+msgstr "Пользователь: <b>{user_name}</b>"
+
+msgid "show_key"
+msgstr "Ключ: "
+
+msgid "error_connect_server"
+msgstr "Ошибка при запросе к серверу {name_server}"
+
+msgid "error_delete_static_user_in_server"
+msgstr "Не получилось удалить с сервера пользователя {name}"
+
+msgid "error_delete_bd_static_user"
+msgstr "Не получилось удалить пользователся из БД"
+
+msgid "delete_static_user_success"
+msgstr "Пользователь {name} удален! 😁"
+
+msgid "input_message_admin_user"
+msgstr "Введите сообщение 🖊"
+
+msgid "message_from_the_admin"
+msgstr "Сообщение от администратора:"
+
+msgid "message_from_success"
+msgstr "Сообщение отправлено 👍"
+
+msgid "bot_control"
+msgstr "🃏 Управление ботом 🦾"
+
+msgid "servers_control"
+msgstr "Управление серверами 🖥"
+
+msgid "servers_none"
+msgstr "Серверов нет 🉐"
+
+msgid "list_all_servers"
+msgstr "Список всех серверов:"
+
+msgid "server_not_connect_admin"
+msgstr "Сервер не отвечает ‼️"
+
+msgid "space_server_text"
+msgstr "👥 Занято: {space}/{max_space}"
+
+msgid "protocol_server_text"
+msgstr "👥 Занято: {space}"
+
+msgid "server_name_s"
+msgstr "🕋 Имя: "
+
+msgid "server_adress_s"
+msgstr "🌐 Адрес: "
+
+msgid "server_password_vds_s"
+msgstr "📝Пароль от VDS: "
+
+msgid "server_type_free_vds_s"
+msgstr "🖱Тип сервера: "
+
+msgid "server_type_free"
+msgstr "Бесплатный ✳️"
+
+msgid "server_type_not_free"
+msgstr "Платный 💰"
+
+msgid "server_group_s"
+msgstr "👨‍👩‍👦‍👦Группа: "
+
+msgid "server_type_vpn_s"
+msgstr "🎭Тип VPN: "
+
+msgid "server_outline_connect_s"
+msgstr "🗄URL и CertSHA256: "
+
+msgid "server_use_s"
+msgstr "Используется ✅"
+
+msgid "server_hidden_s"
+msgstr "Скрыт для пользователей 🙅‍♂️"
+
+msgid "server_show_s"
+msgstr "Виден для пользователей 💁‍♂️"
+
+msgid "server_not_use_s"
+msgstr "Не используется⚠️"
+
+msgid "server_type_connect_s"
+msgstr "Способ подключения: "
+
+msgid "server_panel_control_s"
+msgstr "Панель управления: "
+
+msgid "server_id_connect_s"
+msgstr "🆔 Подключение: "
+
+msgid "server_login_s"
+msgstr "👤 Логин: "
+
+msgid "server_password_s"
+msgstr "🔐 Пароль: "
+
+msgid "server_use_active"
+msgstr "Протокол  {type_protocol} теперь используется ✅"
+
+msgid "server_not_use_active"
+msgstr "Протокол {type_protocol} больше не используется❗️"
+
+msgid "server_show_active"
+msgstr "Протокол  {type_protocol} теперь виден ✅"
+
+msgid "server_hidden_active"
+msgstr "Протокол {type_protocol} скрыт❗️"
+
+msgid "not_found_key"
+msgstr "Неизвестный ключ: {unknown_client}\n "
+
+msgid "key_delete_server"
+msgstr "Ключи пользователей в протоколе {name} удалены"
+
+msgid "error_get_users_bd_text"
+msgstr "Ошибка при получении пользователей из БД ⛔️"
+
+msgid "file_list_users_server"
+msgstr "Файл с пользователями протокола {name}"
+
+msgid "error_file_list_users_server"
+msgstr "Ошибка при выводе пользователей протокола"
+
+msgid "error_delete_all_users_server"
+msgstr "Не удалось удалить всех клиентов с протокола"
+
+msgid "input_name_server_admin"
+msgstr "Введите имя сервера:"
+
+msgid "who_should_i_send"
+msgstr "Кому отправить сообщение?"
+
+msgid "error_update"
+msgstr "Обновить клинет не получилось ‼️"
+
+msgid "input_message_or_image"
+msgstr "Напишите текст или прикрепите картинку которую увидят пользователи"
+
+msgid "result_mailing_text"
+msgstr "Сообщение отправлено 💌\nВсего отправлено: {all_count}\nПолучено: {suc_count}\nНедошло: {count_not_suc}"
+
+msgid "error_mailing_text"
+msgstr "Ошибка при выполнении рассылки, попробуйте еще раз"
+
+msgid "bot_update_success"
+msgstr "У всех пользователей обновился интерфейс ✅"
+
+msgid "control_promo_text"
+msgstr "Управление промокодами 💻"
+
+msgid "who_width_text"
+msgstr "Какие заявки на вывод вам нужны?"
+
+msgid "not_withdrawal"
+msgstr "Заявок на вывод нет"
+
+msgid "withdrawal_number_s"
+msgstr "📎 Заявка N"
+
+msgid "withdrawal_amount_s"
+msgstr "💴 Сумма: "
+
+msgid "withdrawal_info_s"
+msgstr "💾 Платежная информация: "
+
+msgid "withdrawal_user_connect_s"
+msgstr "📞 Способ связи: "
+
+msgid "withdrawal_telegram_id_s"
+msgstr "🆔 пользователя: "
+
+msgid "withdrawal_condition_s"
+msgstr "🌓 Состояние: "
+
+msgid "withdrawal_success"
+msgstr "оплачен ✅"
+
+msgid "withdrawal_payment_expected"
+msgstr "ожидается оплата ♻️"
+
+msgid "file_server_user_none"
+msgstr "В этом протоколе нету пользователей"
+
+msgid "create_new_promo_text"
+msgstr "Создание нового промокода:"
+
+msgid "input_text_promo_message"
+msgstr "Введите текст нового промокода, используйте только буквы и цифры"
+
+msgid "input_percent_message"
+msgstr "Введите процент скидки промокода"
+
+msgid "input_count_use_message"
+msgstr "Введите общее количество использований промокода"
+
+msgid "error_input_amount_add_balance"
+msgstr "Вводить можно только целые числа"
+
+msgid "error_input_percent"
+msgstr "Процент должен быть от 1 до 99 включительно"
+
+msgid "new_promo_success"
+msgstr "Промокод успешно сохранен"
+
+msgid "error_new_promo_text"
+msgstr "При сохранении промокода произошла ошибка‼️\nПромокоды должны быть <b>Уникальными</b>"
+
+msgid "promo_not_list"
+msgstr "У вас нет промокодов 📭"
+
+msgid "promo_list_all"
+msgstr "Все промокоды"
+
+msgid "promo_delete_text"
+msgstr "Промокод удален ✅"
+
+msgid "message_new_user"
+msgstr "В бот зашел новый пользователь"
+
+msgid "error_promo_delete_text"
+msgstr "При удалении промокода возникла ошибка ‼️"
+
+msgid "application_paid"
+msgstr "Заявка оплачена👌"
+
+msgid "application_error_save"
+msgstr "При сохранении возникла ошибка ‼"
+
+msgid "application_success_text"
+msgstr "✅ Выплачено ✅"
+
+msgid "server_name_error"
+msgstr "Имя слишком длинное!\nВведите другое"
+
+msgid "server_input_ip_text"
+msgstr "Введите адрес панели <b>без http или https</b>\nПример:\n<code>125.146.138.241:2222\n125.146.138.241:2222/path\ndomain.ru/path</code>"
+
+msgid "server_input_ip_adres"
+msgstr "Введите адрес панели\nПример: http://125.146.138.241:2222"
+
+msgid "server_input_password_text"
+msgstr "Введите пароль от VDS"
+
+msgid "server_input_type_server_text"
+msgstr "Выберете тип сервера"
+
+msgid "server_input_type_vpn_text"
+msgstr "Выберете тип VPN"
+
+msgid "server_input_url_cert_text"
+msgstr "Введите URl и CertSHa сервера\nПример: <b>{\"apiUrl\":\"https://xxxx\",\"certSha256\":\"xxxx\"}</b>"
+
+msgid "server_input_choosing_type_connect_text"
+msgstr "Выберете тип подключения"
+
+msgid "server_error_choosing_type_connect_text"
+msgstr "Неизвестный тип подключения"
+
+msgid "server_choosing_panel_control"
+msgstr "Выберете вашу панель управления"
+
+msgid "server_input_id_connect_text"
+msgstr "Введите ID подключения в панели"
+
+msgid "server_input_login_text"
+msgstr "Введите логин"
+
+msgid "server_input_password_panel_text"
+msgstr "Введите пароль от панели"
+
+msgid "server_error_connect"
+msgstr "📛Ошибка!📛\nВы неправельно ввели данные\nЛибо сервер не отвечает"
+
+msgid "server_error_write_db_name"
+msgstr "📛Ошибка!📛\nНе удалось записать в базу данных ❗"
+
+msgid "server_add_success"
+msgstr "<b>Протокол успешно добавлен!</b> ✅"
+
+msgid "server_error_name_not_found"
+msgstr "Протокол с таким именем не найден 🖥🚫"
+
+msgid "server_error_delete"
+msgstr "📛Ошибка!📛\nНе удалось удалить протокол❗"
+
+msgid "server_delete_success"
+msgstr "Протокол успешно удален 👌"
+
+msgid "payment_autopay_text"
+msgstr "🎉 <b>Сработало авто покупка VPN</b> вы оплатили "
+
+msgid "loop_autopay"
+msgstr "{text}{mount_count} мес. подписки"
+
+msgid "loop_autopay_error"
+msgstr "Ошибка при попытке авто продлить или авто купить подписку клиенту с ID {telegram_id}"
+
+msgid "payment_success"
+msgstr "<b>Оплата принята ✅️</b>\nВам добавлен ключ 🔑 на <b>{total_month} мес.</b> подписки"
+
+msgid "payment_success_extend"
+msgstr "<b>Оплата принята ✅️</b>\nПодписка ключа 🔑 продлена на <b>{total_month} мес.</b>"
+
+msgid "payment_success_switch"
+msgstr "<b>Оплата принята ✅️</b>\nТеперь вы можете изменить локацию ключа 👍"
+
+msgid "donate_successful"
+msgstr "Спасибо за вашу поддержку ❤️❤️❤️"
+
+msgid "reff_add_balance"
+msgstr "Пользователь которого вы привели пополнил баланс!\n Вы получаете -> <b>{referral_balance} ₽</b>На свой реферальный баланс 🎉🎉"
+
+msgid "description_payment"
+msgstr "Оплата подписки"
+
+msgid "payment_button"
+msgstr "Оплатить"
+
+msgid "payment_balance_text"
+msgstr "Оплатить: {price}₽"
+
+msgid "payment_balance_text2"
+msgstr "Оплатить:{price}₽"
+
+msgid "inform_language"
+msgstr "<b>Выбранный язык:</b>\n🇷🇺 Русский"
+
+msgid "select_language"
+msgstr "⇩ Выберете язык ⇩"
+
+msgid "help_message"
+msgstr "Как мы можем вам помочь?"
+
+msgid "help_message_connect_protocol"
+msgstr "ℹ️Выберете протокол 👇"
+
+msgid "donate_message"
+msgstr "💡 Вы можете внести свой вклад в развитие проекта и поддержать нас, отправив средства здесь ⇩"
+
+msgid "donate_list_users"
+msgstr "😎Люди поддержавшие проект:\n\n{users}"
+
+msgid "user_key_list_new_key"
+msgstr "🆕️ Создать новый ключ"
+
+msgid "user_key_list_message_connect"
+msgstr "Ваши ключи 🔑\n⇩ Нажмите что бы получить или изменить"
+
+msgid "user_key_get"
+msgstr "Получить 🔑"
+
+msgid "user_key_extend"
+msgstr "Продлить ⏳"
+
+msgid "user_key_edit"
+msgstr "Изменить 🌎"
+
+msgid "day_small"
+msgstr "{day} дн."
+
+msgid "hours_small"
+msgstr "{hours} ч."
+
+msgid "user_key_list"
+msgstr "🔑 Ключ №{count_key} ({count_day}) {name} ({type_vpn_key})"
+
+msgid "user_key_list_admin"
+msgstr "🔑 Ключ ID:{count_key} ({count_day} дн. {hours} ч.) {name} ({type_vpn_key}) - {count_switch} смен"
+
+msgid "user_key_list_no_server"
+msgstr "Подключите ключ к серверу что бы изменить его 😁"
+
+msgid "user_key_edit_pay"
+msgstr "У ключа закончились бесплатные изменения,\nодно изменение {price_switch} ₽"
+
+msgid "server_edit_switch_key"
+msgstr "Тип смены в локации изменен ✅"
+
+msgid "donate_input_price_text"
+msgstr "Введите сумму, на которую готовы поддержать проект"
+
+msgid "donate_input_price_text_not_num"
+msgstr "Вводите только целые числа\nВведите еще раз"
+
+msgid "donate_input_price_text_limit"
+msgstr "Сумма может быть от 50 ₽ до 20000 ₽"
+
+msgid "want_use_promocode"
+msgstr "Хотите использовать промокод?"
+
+msgid "edit_key_input_key_id"
+msgstr "Введите id ключа пользователя"
+
+msgid "edit_key_input_key_id_error_number"
+msgstr "Вводите целые числа"
+
+msgid "edit_key_input_key_id_error_not_found"
+msgstr "Ключ не найден 😢"
+
+msgid "edit_key_new_key"
+msgstr "Введите количество дней подписки ключа"
+
+msgid "edit_key_new_key_success"
+msgstr "Ключ создан ✅"
+
+msgid "edit_key_new_key_success_message"
+msgstr "<b>Администратор подарил вам ключ 🔑</b>\n\n<i>Перейдите в раздел подключения что бы выбрать локацию</i>"
+
+msgid "edit_key_new_key_success_error"
+msgstr "Пользователь не смог получить уведомление, вероятно он заблокировал бота"
+
+msgid "edit_key_new_key_error_limit"
+msgstr "Можно создать ключ с временем от 1 до 500 дней"
+
+msgid "edit_key_delete_admin_message"
+msgstr "Ключ удален 💢"
+
+msgid "edit_key_delete_admin_message_error_connect"
+msgstr "Не получилось удалить ключ с сервера, скорее всего сервер не отвечает"
+
+msgid "edit_key_delete_user_message"
+msgstr "⚠️Администратор удалил вам ключ"
+
+msgid "edit_key_input_new_time"
+msgstr "Введите количество дней для этого ключа"
+
+msgid "edit_key_new_time_success_admin"
+msgstr "Время ключа обновлено ✅"
+
+msgid "edit_key_new_time_success_user"
+msgstr "Администратор изменил время подписки вашего ключа 😁"
+
+msgid "edit_key_input_new_server"
+msgstr "Введите ID сервера который хотите присвоить ключу\nВаши сервера:\n{server_string}"
+
+msgid "edit_key_input_new_server_not_found"
+msgstr "Сервер не найден"
+
+msgid "edit_key_input_new_server_success_admin"
+msgstr "🖥 Сервер ключа изменен ✅"
+
+msgid "edit_key_input_new_server_success_user"
+msgstr "Администратор изменил сервер вашего ключа 😁\n получите новый конфиг нажав Подключиться🔌"
+
+msgid "edit_key_input_switch"
+msgstr "Введите количество смен локации для этого ключа"
+
+msgid "edit_key_input_switch_error_limit"
+msgstr "Максимум 10к смен"
+
+msgid "edit_key_input_switch_success_admin"
+msgstr "Количество смен локации обновлено ✅"
+
+msgid "edit_key_input_switch_success_user"
+msgstr "Администратор обновил вашему ключу количество смен локаций "
+
+msgid "edit_client_blocked_message"
+msgstr "Пользователь разблокирован 🔓"
+
+msgid "edit_client_unblocked_message"
+msgstr "Пользователь заблокирован 🔐"
+
+msgid "admin_message_choosing_month"
+msgstr "Пользователь @{username} ID {user_id} выбрал период подписки на {month_count} мес."
+
+msgid "admin_message_payment_success_trial_pay"
+msgstr "Пользователь {username} ID {user_id} оплатил {day} дн. за {price} руб"
+
+msgid "admin_message_payment_success"
+msgstr "Пользователь {username} ID {user_id} оплатил {month_count} мес. {price} руб"
+
+msgid "admin_message_payment_success_donate"
+msgstr "Пользователь {username} ID {user_id} задонатил {price} руб"
+
+msgid "admin_message_payment_success_switch"
+msgstr "Пользователь {username} ID {user_id} оплатил смену локаций {price} руб"
+
+msgid "want_attach_button_mailing"
+msgstr "Хотите прикрепить к сообщение кнопку?"
+
+msgid "not_server_free_vpn"
+msgstr "У нас пока что нету бесплатных серверов 😓\nПопробуйте зайти позже"
+
+msgid "download"
+msgstr "Загрузка 🔄"
+
+msgid "metric_list_message"
+msgstr "Ваши метрики:"
+
+msgid "metric_show"
+msgstr "Название: {name}\nСсылка: {link}\n\nСтатистика:\nКоличество пользователей: {count_users}\nВзяли пробный период: {count_trial_users}\nКоличество оплативших: {count_user_payment}\nОбщая сумма оплат: {sum_payment}\n\nВсе платежи:\n{payments_tariff}"
+
+msgid "metric_add_name"
+msgstr "Введите название метрики\nНапример  Ютуб, Instagram"
+
+msgid "metric_remove"
+msgstr "Метрика удалена"
+
+msgid "message_server_auto_show"
+msgstr ""
+"✅ Протокол {type_vpn} на сервере {vds_ip} ({location_name}) в сети, "
+"и снова доступен для выбора <b>если он используется</b>"
+
+msgid "message_server_auto_hidden"
+msgstr ""
+"❌ Протокол {type_vpn} на сервере {vds_ip} ({location_name}) не в сети, "
+"был автоматически скрыт у выбора пользователей"
+
+#Button
+
+msgid "admin_metric_list_btn"
+msgstr "Метрики 📊"
+
+msgid "trial_period_btn"
+msgstr "Пробный период 📆"
+
+msgid "edit_client_blocked"
+msgstr "Заблокировать 🔒"
+
+msgid "edit_client_unblocked"
+msgstr "Разблокировать 🔓"
+
+msgid "key_control_delete_key"
+msgstr "🔥Удалить ключ"
+
+msgid "key_control_edit_time"
+msgstr "🕑 Изменить время ключа"
+
+msgid "key_control_edit_server"
+msgstr "🖥 Изменить сервер ключа"
+
+msgid "key_control_update_swith"
+msgstr "🔁 Изменить количество смен локации"
+
+msgid "not_promo_code_menu_btn"
+msgstr "🔸Не использовать🔸"
+
+msgid "promo_code_menu_btn"
+msgstr "🎟 {name_promo} - {percent}%"
+
+msgid "donate_input_price"
+msgstr "Введите сумму..."
+
+msgid "donate_list"
+msgstr "😎 Ꮯᴨᴏнᴄᴏᴩы"
+
+msgid "back_type_vpn"
+msgstr "Назад ↩️"
+
+msgid "language_btn"
+msgstr "🌍 Language"
+
+msgid "subscription_btn"
+msgstr "Подписка 📅"
+
+msgid "donate_btn"
+msgstr "💸 Донат"
+
+msgid "promokod_btn"
+msgstr "🏷 Промокод"
+
+msgid "help_btn"
+msgstr "📥 Поддержка"
+
+msgid "free_vpn_connect_btn"
+msgstr "🎁 Бесплатный VPN"
+
+msgid "vpn_connect_btn"
+msgstr "🌍 VPN"
+
+msgid "affiliate_btn"
+msgstr "👥️ Партнёр"
+
+msgid "bonus_btn"
+msgstr "Пригласить 🎁"
+
+msgid "about_vpn_btn"
+msgstr "🗞 О нас"
+
+msgid "not_button_mailing_btn"
+msgstr "Без кнопок ❌"
+
+msgid "admin_panel_btn"
+msgstr "Админ панель 😎"
+
+msgid "to_extend_btn"
+msgstr "🌐 Продлить"
+
+msgid "replenish_bnt"
+msgstr "Пополнить 💵"
+
+msgid "general_menu_btn"
+msgstr "🖥 Главное меню"
+
+msgid "back_general_menu_btn"
+msgstr "Главное меню ↩️"
+
+msgid "back_subscription_menu_btn"
+msgstr "Назад  ↩️"
+
+msgid "back_balance_menu_btn"
+msgstr "Вернуться  ↩️"
+
+msgid "not_uses_server_btn"
+msgstr "Не использовать ❌"
+
+msgid "uses_server_btn"
+msgstr "Использовать ✅"
+
+msgid "hidden_server_btn"
+msgstr "Скрыть 🙅‍♂️"
+
+msgid "show_server_btn"
+msgstr "Показать 💁‍♂️"
+
+msgid "list_user_server_btn"
+msgstr "Список пользователей 📄"
+
+msgid "pay_switch_server_btn"
+msgstr "💵 Включить платное изменение"
+
+msgid "not_pay_switch_server_btn"
+msgstr "💢 Выключить платное изменение"
+
+msgid "delete_key_server_btn"
+msgstr "🔥 Сбросить ключи 🔥"
+
+msgid "admin_user_add_time_btn"
+msgstr "Добавить время 🕘"
+
+msgid "admin_user_edit_keys_btn"
+msgstr "Ключи пользователя 🔑"
+
+msgid "admin_user_message_client_btn"
+msgstr "Написать клиенту 💬"
+
+msgid "admin_user_delete_time_btn"
+msgstr "Сбросить время 💢"
+
+msgid "definitely_dropping_btn"
+msgstr "Точно сбрасываем!"
+
+msgid "delete_static_user_btn"
+msgstr "Удалить 💢"
+
+msgid "admin_user_mailing_all_btn"
+msgstr "Всем 📒"
+
+msgid "admin_user_mailing_sub_btn"
+msgstr "Только с подпиской 📗"
+
+msgid "admin_user_mailing_not_sub_btn"
+msgstr "Только без подписки 📕"
+
+msgid "admin_user_mailing_update_btn"
+msgstr "⚙️ Обновить клиент ⚙️"
+
+msgid "promo_add_new_btn"
+msgstr "Создать новый ➕"
+
+msgid "promo_show_all_btn"
+msgstr "Показать все промокоды 📤"
+
+msgid "applications_show_all_btn"
+msgstr "Показать все заявки 📙"
+
+msgid "applications_show_active_btn"
+msgstr "Показать только активные 📘"
+
+msgid "applications_success_btn"
+msgstr "Выплачено ✅"
+
+msgid "payments_yookassa_btn"
+msgstr "🔵 Юкасса"
+
+msgid "payments_yoomoney_btn"
+msgstr "🟣ЮMoney"
+
+msgid "payments_cryptomus_btn"
+msgstr "🎲Cryptomus"
+
+msgid "payments_heleket_btn"
+msgstr "🔥Heleket"
+
+msgid "payments_lava_btn"
+msgstr "🌋lava"
+
+msgid "payments_cyrptobot_btn"
+msgstr "Crypto Bot 🏧"
+
+msgid "payments_stars_btn"
+msgstr "TeleStars ✨️"
+
+msgid "payments_wawa_btn"
+msgstr "Wata Карта МИР"
+
+msgid "payments_wawa_spb_btn"
+msgstr "Wata СБП"
+
+msgid "payments_wawa_visa_btn"
+msgstr "Wata Visa"
+
+msgid "payments_not_btn_1"
+msgstr "Пополнение не работает 😭"
+
+msgid "payments_not_btn_2"
+msgstr "Попробуйте позже"
+
+msgid "to_extend_month_btn"
+msgstr "{count_month} мес. 📅 - {price} ₽"
+
+msgid "to_extend_month_1_btn"
+msgstr "1 Мес - {price}₽"
+
+msgid "to_extend_month_2_btn"
+msgstr "3 Мес - {price}₽"
+
+msgid "to_extend_month_3_btn"
+msgstr "6 Мес - {price}₽"
+
+msgid "to_extend_month_4_btn"
+msgstr "12 Мес - {price}₽"
+
+msgid "instruction_payment_btn"
+msgstr "Инструкция по оплате 🧾"
+
+msgid "user_pay_sub_btn"
+msgstr "Оплатить"
+
+msgid "instruction_use_iphone_btn"
+msgstr "Инструкция для IOS"
+
+msgid "instruction_use_android_btn"
+msgstr "Инструкция для Android"
+
+msgid "instruction_use_pc_btn"
+msgstr "Инструкция для PC"
+
+msgid "instruction_check_vpn_btn"
+msgstr "Проверить VPN"
+
+msgid "user_share_btn"
+msgstr "📣 Поделиться"
+
+msgid "withdraw_funds_btn"
+msgstr "💰 Вывести деньги (От {min_withdrawal_amount}₽)"
+
+msgid "enough_funds_withdraw_btn"
+msgstr "💰 Вывести деньги (От {min_withdrawal_amount}₽)"
+
+msgid "write_the_admin_btn"
+msgstr "Написать админу 💬"
+
+msgid "not_work_btn"
+msgstr "Не работает VPN ❌"
+
+msgid "wath_connect_btn"
+msgstr "Как подключиться ❓"
+
+msgid "write_the_promo_btn"
+msgstr "Ввести..."
+
+msgid "admin_user_send_reply_btn"
+msgstr "Ответить 💬"
+
+msgid "admin_group_control_message"
+msgstr "Управелние группами 📲"
+
+msgid "admin_group_list_groups"
+msgstr "📋 Список групп:"
+
+msgid "admin_group_list_groups_none"
+msgstr "Клиентов в группе нету"
+
+msgid "admin_group_list_groups_file"
+msgstr "Файл с пользователями группы"
+
+msgid "admin_group_user_input_id"
+msgstr "Отправьте ID пользователей\nID пользователей <b>пишите через запятую , </b>"
+
+msgid "admin_group_user_add_success"
+msgstr "✅Добавленных пользователей:"
+
+msgid "admin_group_user_exclude_success"
+msgstr "☑️Исключено пользователей:"
+
+msgid "admin_group_delete_success"
+msgstr "🔥🔥Группа удалена🔥🔥"
+
+msgid "admin_group_add_input_name"
+msgstr "Отправьте имя группы,\nимена не должны повторяться"
+
+msgid "admin_group_add_success"
+msgstr "✅ Группа успешно добавлена"
+
+msgid "admin_group_add_error"
+msgstr "Ошибка при добавлении группы\nВозможно у вас есть группа с таким названием"
+
+msgid "admin_locations_list"
+msgstr "Ваши локации:"
+
+msgid "locations_list_not_found"
+msgstr "У вас нету локаций ⚠️"
+
+msgid "location_input_name_text"
+msgstr "Введите имя для Локации"
+
+msgid "location_input_id_text"
+msgstr "Введите id локации"
+
+msgid "location_create_text"
+msgstr "Локация создана ✅"
+
+msgid "location_not_found_text"
+msgstr "Локация не найдена ⚠️"
+
+msgid "location_input_new_name_text"
+msgstr "Введите новое имя для локации {location_name}"
+
+msgid "location_new_name_success_text"
+msgstr "Локация задано новое имя ✅"
+
+msgid "location_work_text"
+msgstr "Локация {location_name} теперь используется ✅"
+
+msgid "location_not_work_text"
+msgstr "Локация {location_name} больше не используется ⚠️"
+
+msgid "location_delete_text"
+msgstr "Локация {location_name} удалена 🔥"
+
+msgid "location_not_delete_text"
+msgstr "❌ Ошибка, сначала нужно удалить все vds и протоколы"
+
+msgid "vds_list_text"
+msgstr "Ваши сервера в локации {location_name}"
+
+msgid "vds_input_name_text"
+msgstr "Напишите название сервера, это может быть название хостинга или что нибудь другое"
+
+msgid "vds_input_ip_text"
+msgstr "Напишите ip сервера"
+
+msgid "vds_input_ip_text_duplicate"
+msgstr "У вас уже есть сервер с таким ip!\nНапишите ip заново"
+
+msgid "vds_input_password_text"
+msgstr "Напишите пароль от сервера"
+
+msgid "vds_input_max_client_text"
+msgstr "Напишите максимальное количество клиентов для этого сервера.\nКак пример если у сервера пропускная способность 200мб/c то на него поместиться примерно 120 человек"
+
+msgid "vds_create_text"
+msgstr "Сервер успешно создан ✅"
+
+msgid "vds_work_text"
+msgstr "Сервер {vds_ip} теперь используется ✅"
+
+msgid "vds_not_work_text"
+msgstr "Сервер {vds_ip} больше не используется ⚠️"
+
+msgid "vds_edit_name_success_text"
+msgstr "Серверу установлено новое имя ✅"
+
+msgid "vds_edit_ip_success_text"
+msgstr "Серверу установлен новый ip ✅"
+
+msgid "vds_edit_pass_success_text"
+msgstr "Серверу установлено новый пароль ✅"
+
+msgid "vds_edit_limit_success_text"
+msgstr "Серверу установлено новый лимит ✅"
+
+msgid "vds_edit_del_success_text"
+msgstr "Сервер {server_ip} успешно удален 🔥"
+
+msgid "vds_edit_not_del_success_text"
+msgstr "❌ Ошибка, с начала нужно удалить все протоколы"
+
+msgid "protocol_list_text"
+msgstr "Ваши протоколы на сервере {vds_ip}"
+
+#Admin Button
+
+msgid "admin_statistic_metric"
+msgstr "Статистика по метрикам 📊"
+
+msgid "admin_free_server_btn"
+msgstr "Бесплатный"
+
+msgid "admin_not_free_server_btn"
+msgstr "Платный"
+
+msgid "admin_back_admin_menu_btn"
+msgstr "Вернуться  ⤵️"
+
+msgid "admin_back_users_menu_btn"
+msgstr "Назад  ⤵️"
+
+msgid "admin_users_btn"
+msgstr "Пользователи 👤"
+
+msgid "admin_promo_btn"
+msgstr "Промокоды 🏷"
+
+msgid "admin_servers_btn"
+msgstr "Сервера 🖥"
+
+msgid "admin_locations_btn"
+msgstr "Локации 🌍"
+
+msgid "admin_locations_add_btn"
+msgstr "Добавить ➕"
+
+msgid "admin_locations_edit_btn"
+msgstr "Изменить имя 🖋"
+
+msgid "admin_locations_del_btn"
+msgstr "Удалить 🔥"
+
+msgid "admin_locations_work_btn"
+msgstr "Вкл/Выкл локацию 💡"
+
+msgid "admin_locations_control_vds_btn"
+msgstr "Управление VDS 🕋"
+
+msgid "admin_reff_system_btn"
+msgstr "Реф. система 🈶"
+
+msgid "admin_send_message_users_btn"
+msgstr "Отправить рассылку 💬"
+
+msgid "admin_show_statistic_btn"
+msgstr "Показать статистику 👥"
+
+msgid "admin_edit_user_btn"
+msgstr "Редактировать пользователей ✏️"
+
+msgid "admin_static_user_btn"
+msgstr "Статические пользователи 📔"
+
+msgid "admin_static_add_user_btn"
+msgstr "Добавить пользователя ➕"
+
+msgid "admin_static_show_users_btn"
+msgstr "Вывести статических пользователей 🧾"
+
+msgid "admin_exit_btn"
+msgstr "Выйти ❌"
+
+msgid "admin_statistic_show_all_users_btn"
+msgstr "Всех пользователей 🗂"
+
+msgid "admin_statistic_ref_bord_btn"
+msgstr "Реф.лид.борд 👯‍♀️"
+
+msgid "ref_name"
+msgstr "ID"
+
+msgid "ref_username"
+msgstr "UserName"
+
+msgid "ref_count_user"
+msgstr "Количество пользователей"
+
+msgid "ref_count_trial_user"
+msgstr "Пробник взяли"
+
+msgid "ref_count_end_trial_user"
+msgstr "Пробник закончился"
+
+msgid "ref_count_user_payment"
+msgstr "Подписку купили"
+
+msgid "ref_count_user_payment_not_sub"
+msgstr "Подписка закончилась"
+
+msgid "list_of_ref_bord_file"
+msgstr "Статистика по рефералам"
+
+msgid "error_list_of_ref_bord_file"
+msgstr "Ошибка при выводе файла"
+
+msgid "list_of_none_ref_board_file"
+msgstr "Пользователи отсутствуют"
+
+msgid "admin_statistic_show_sub_users_btn"
+msgstr "С подпиской ✅"
+
+msgid "admin_statistic_show_payments_btn"
+msgstr "Платежи 💵"
+
+msgid "admin_server_show_all_btn"
+msgstr "Все сервера 📊"
+
+msgid "admin_server_add_btn"
+msgstr "Добавить сервер ➕"
+
+msgid "admin_server_delete_btn"
+msgstr "Удалить протокол 🗑"
+
+msgid "admin_server_cancellation"
+msgstr "Отмена  ⛔️"
+
+msgid "admin_users_cancellation"
+msgstr "Отмена ❌"
+
+msgid "admin_groups_btn"
+msgstr "Группы 👥"
+
+msgid "admin_groups_show_btn"
+msgstr "Показать группы 👁‍🗨"
+
+msgid "admin_groups_add_btn"
+msgstr "Добавить группу ➕"
+
+msgid "admin_groups_client_show_btn"
+msgstr "Клиенты группы 👨‍👩‍👧‍👦"
+
+msgid "admin_groups_client_add_btn"
+msgstr "Добавить ➗"
+
+msgid "admin_groups_client_exclude_btn"
+msgstr "Исключить ➖"
+
+msgid "admin_groups_client_delete_btn"
+msgstr "Удалить группу 🔥"
+
+msgid "admin_vds_control_protocol_btn"
+msgstr "Управление протоколами 🔌"
+
+msgid "admin_vds_work_btn"
+msgstr "Вкл/Выкл сервер 💡"
+
+msgid "admin_vds_edit_name_btn"
+msgstr "Новое имя ✏️"
+
+msgid "admin_vds_edit_password_btn"
+msgstr "Новый пароль ✏️"
+
+msgid "admin_vds_edit_ip_btn"
+msgstr "Новый ip ✏️"
+
+msgid "admin_vds_edit_limit_btn"
+msgstr "Новый лимит ✏️"
+
+msgid "admin_vds_del_btn"
+msgstr "Удалить сервер 🔥"
+
+msgid "admin_vds_add_protocol_btn"
+msgstr "Добавить протокол ✳️"
+
+msgid "server_input_api_token_text"
+msgstr "Введите API токен панели x-ui\n\n<b>Как получить токен:</b>\nЗайдите в панель x-ui → Настройки → API токен → Скопируйте токен"
+
+msgid "server_choose_auth_method_text"
+msgstr "Выберите способ авторизации в панели"
+
+msgid "server_auth_token_btn"
+msgstr "🔑 API токен"
+
+msgid "server_auth_login_btn"
+msgstr "👤 Логин / Пароль"
+
+msgid "server_api_token_s"
+msgstr "🔑 API токен: "
+
+msgid "server_input_sub_path_text"
+msgstr "📶 <b>Настройка подписки Happ</b>\n\nВведите путь подписки (например: <code>sub</code>)\n\nСсылка будет выглядеть так:\n<code>http://ip:порт/<b>путь</b>/subId</code>\n\nИли нажмите кнопку ниже чтобы пропустить."
+
+msgid "server_sub_path_skip_btn"
+msgstr "❌ Пропустить (без подписки)"
+
+msgid "happ_sub_url_text"
+msgstr "📲 <b>Ссылка подписки Happ:</b>\n<code>{sub_url}</code>"
+
+msgid "server_sub_path_s"
+msgstr "📶 Путь подписки: "
+

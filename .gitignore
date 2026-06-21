@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+.npm/
+.yarn/
+
+# Dart/Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.crt
+secrets/
+
+# Logs
+logs/
+*.log
+*.log.*
+bot/logs/*.log
+backend/logs/*.log
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+backend/test.db
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Backups
+backups/
+*.dump
+*.sql.gz
+*.tar.gz
+*.tgz
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+target/
+*.egg
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# WireGuard (keys)
+wg-keys/
+*.conf.bak
